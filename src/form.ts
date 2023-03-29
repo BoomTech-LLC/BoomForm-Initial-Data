@@ -1,4 +1,8 @@
-export const formInitials = {
+export interface IFromsInitials extends Object {
+  [key: string]: any;
+}
+
+export const formInitials: IFromsInitials = {
   current: null,
   isLoading: false,
   error: null,

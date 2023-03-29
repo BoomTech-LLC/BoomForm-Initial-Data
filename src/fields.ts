@@ -1,4 +1,8 @@
-export const fieldsInitials = {
+export interface IFieldsInitials extends Object {
+  [key: string]: any;
+}
+
+export const fieldsInitials : IFieldsInitials = {
   INPUT_SINGLE_LINE_TEXT: {
     label: {
       value: "Type a question",
