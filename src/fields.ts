@@ -1,6 +1,4 @@
-export interface IFieldsInitials extends Object {
-  [key: string]: any;
-}
+import { IFieldsInitials } from "./types";
 
 export const fieldsInitials : IFieldsInitials = {
   INPUT_SINGLE_LINE_TEXT: {

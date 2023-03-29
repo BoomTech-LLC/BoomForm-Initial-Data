@@ -1,10 +1,6 @@
-import { fieldsInitials , IFieldsInitials } from "./src/fields";
-import { formInitials  , IFromsInitials} from "./src/form";
-
-interface IInitials{
-  fieldsInitials : IFieldsInitials,
-  formInitials: IFromsInitials
-}
+import { fieldsInitials } from "./src/fields";
+import { formInitials } from "./src/form";
+import { IInitials } from "./src/types";
 
 
 const Initials : IInitials= {

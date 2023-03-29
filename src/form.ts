@@ -1,6 +1,5 @@
-export interface IFromsInitials extends Object {
-  [key: string]: any;
-}
+import { IFromsInitials } from "./types";
+
 
 export const formInitials: IFromsInitials = {
   current: null,
