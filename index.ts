@@ -3,9 +3,9 @@ import { formInitials } from "./src/form";
 import { IInitials } from "./src/types";
 
 
-const Initials : IInitials= {
+const initials : IInitials= {
   fieldsInitials,
   formInitials
 }
 
-export default Initials
+export default initials
