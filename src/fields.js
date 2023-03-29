@@ -121,13 +121,31 @@ export const fieldsInitials = {
       },
     },
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: {
-      LETTERS: { value: false, enabled: false },
-      DIGITS: { value: false, enabled: false },
-      EMAIL: { value: false, enabled: false },
-      URL: { value: false, enabled: false },
-      REGEX: { value: " ", enabled: false },
+      LETTERS: {
+        value: false,
+        enabled: false,
+      },
+      DIGITS: {
+        value: false,
+        enabled: false,
+      },
+      EMAIL: {
+        value: false,
+        enabled: false,
+      },
+      URL: {
+        value: false,
+        enabled: false,
+      },
+      REGEX: {
+        value: " ",
+        enabled: false,
+      },
       MIN_MAX_QUANTITY: {
         enabled: false,
         min: 0,
@@ -259,13 +277,31 @@ export const fieldsInitials = {
     },
     isRequired: false,
     isRichText: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: {
-      LETTERS: { value: false, enabled: false },
-      DIGITS: { value: false, enabled: false },
-      URL: { value: false, enabled: false },
-      REGEX: { value: " ", enabled: false },
-      EMAIL: { value: false, enabled: false },
+      LETTERS: {
+        value: false,
+        enabled: false,
+      },
+      DIGITS: {
+        value: false,
+        enabled: false,
+      },
+      URL: {
+        value: false,
+        enabled: false,
+      },
+      REGEX: {
+        value: " ",
+        enabled: false,
+      },
+      EMAIL: {
+        value: false,
+        enabled: false,
+      },
       MIN_MAX_QUANTITY: {
         enabled: false,
         min: 0,
@@ -310,7 +346,11 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    isMiddleName: true,
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     first_name: {
       input: {
         data: {
@@ -321,7 +361,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 50,
+            widthPercent: 32.9,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -411,7 +451,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 50,
+            widthPercent: 32.8,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -501,7 +541,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 50,
+            widthPercent: 32.9,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -581,7 +621,6 @@ export const fieldsInitials = {
       },
       isRequired: false,
     },
-    isMiddleName: false,
     validations: {},
   },
   INPUT_PASSWORD: {
@@ -620,9 +659,14 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     input: {
-      data: { placeholder: "Enter Password" },
+      data: {
+        placeholder: "Enter Password",
+      },
       styles: {
         input: {
           widthPx: null,
@@ -705,10 +749,24 @@ export const fieldsInitials = {
       },
     },
     validations: {
-      LETTERS: { value: false, enabled: false },
-      REGEX: { value: " ", enabled: false },
-      MIN_MAX_QUANTITY: { min: 0, max: 0, validateBy: "WORD", enabled: false },
-      DIGITS: { value: false, enabled: false },
+      LETTERS: {
+        value: false,
+        enabled: false,
+      },
+      REGEX: {
+        value: " ",
+        enabled: false,
+      },
+      MIN_MAX_QUANTITY: {
+        min: 0,
+        max: 0,
+        validateBy: "WORD",
+        enabled: false,
+      },
+      DIGITS: {
+        value: false,
+        enabled: false,
+      },
     },
     icon: {
       styles: {
@@ -829,7 +887,10 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     defaultValue: "(00)000000",
     input: {
       styles: {
@@ -1042,7 +1103,9 @@ export const fieldsInitials = {
       },
     },
     input: {
-      data: { contentType: "placeholder" },
+      data: {
+        contentType: "placeholder",
+      },
       styles: {
         input: {
           widthPx: null,
@@ -1129,7 +1192,10 @@ export const fieldsInitials = {
     isShowLabel: true,
     isRequired: false,
     arrows: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: {
       MIN_MAX_QUANTITY: {
         enabled: false,
@@ -1141,7 +1207,11 @@ export const fieldsInitials = {
     payable: {
       setPrice: false,
       ammount: false,
-      limit: { enabled: false, min: 0, max: 0 },
+      limit: {
+        enabled: false,
+        min: 0,
+        max: 0,
+      },
     },
     icon: {
       styles: {
@@ -1349,9 +1419,18 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     isActive: false,
-    validations: { MIN_MAX_DATE: { min: "", max: "", enabled: false } },
+    validations: {
+      MIN_MAX_DATE: {
+        min: "",
+        max: "",
+        enabled: false,
+      },
+    },
     icon: {
       styles: {
         input: {
@@ -1473,7 +1552,10 @@ export const fieldsInitials = {
     defaultValue: 4,
     isShowLabel: true,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: [],
     isCircle: true,
     input: {
@@ -1687,7 +1769,10 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: {},
   },
   INPUT_ADDRESS: {
@@ -2544,10 +2629,20 @@ export const fieldsInitials = {
       },
       isRequired: false,
     },
-    order: ["address_1", "address_2", "city", "state", "zip_code", "country"],
+    order: {
+      address_1: true,
+      address_2: true,
+      city: true,
+      state: true,
+      zip_code: true,
+      country: true,
+    },
     isRequired: false,
     isShowLabel: true,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: {
       required: {
         SELECTED_ALL: false,
@@ -2683,10 +2778,19 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: {
-      DOMAIN: { value: " ", enabled: false },
-      REGEX: { value: " ", enabled: false },
+      DOMAIN: {
+        value: " ",
+        enabled: false,
+      },
+      REGEX: {
+        value: " ",
+        enabled: false,
+      },
     },
   },
   HEADING_TEXT: {
@@ -2724,7 +2828,10 @@ export const fieldsInitials = {
       },
     },
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     isActive: true,
     isShowLabel: true,
     text: "Heading",
@@ -2797,7 +2904,10 @@ export const fieldsInitials = {
         },
       },
     },
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     left: {
       label: "",
       input: {
@@ -3076,7 +3186,11 @@ export const fieldsInitials = {
     startValue: 0,
     endValue: 10,
     input: {
-      data: { contentType: "placeholder", defaultText: "", placeholder: "" },
+      data: {
+        contentType: "placeholder",
+        defaultText: "",
+        placeholder: "",
+      },
       styles: {
         input: {
           widthPx: null,
@@ -3194,7 +3308,11 @@ export const fieldsInitials = {
       },
     },
     input: {
-      data: { contentType: "placeholder", defaultText: "", placeholder: "" },
+      data: {
+        contentType: "placeholder",
+        defaultText: "",
+        placeholder: "",
+      },
       styles: {
         input: {
           widthPx: null,
@@ -3278,7 +3396,10 @@ export const fieldsInitials = {
     },
     isChecked: false,
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     text: "I agree to the {Terms of Service}",
     url: "www.example.com",
     validations: [],
@@ -3495,11 +3616,18 @@ export const fieldsInitials = {
         validateBy: "LENGTH",
       },
     },
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     payable: {
       setPrice: false,
       ammount: false,
-      limit: { enabled: false, min: 0, max: 0 },
+      limit: {
+        enabled: false,
+        min: 0,
+        max: 0,
+      },
     },
   },
   MAP: {
@@ -3624,9 +3752,15 @@ export const fieldsInitials = {
       },
     },
     isRequired: false,
-    center: { lat: 48.85837009999999, lng: 2.2944813 },
+    center: {
+      lat: 48.85837009999999,
+      lng: 2.2944813,
+    },
     zoom: 4,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: [],
   },
   CUSTOM_HTML: {
@@ -3752,7 +3886,10 @@ export const fieldsInitials = {
     },
     html: '<p style="font-family: `Quicksand`;font-style: normal;font-weight: 400;font-size: 16px;line-height: 20px;display: flex;align-items: center;color: #434E5A;opacity: 0.6; margin: 0">This is Heading</p>  <p style="font-family: `Quicksand`;font-style: normal;font-weight: 400;font-size: 16px;line-height: 20px;display: flex;align-items: center;color: #434E5A;opacity: 0.6; margin: 0">This is a paragraph</p>',
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: [],
   },
   DESCRIPTION_TEXT: {
@@ -3790,7 +3927,10 @@ export const fieldsInitials = {
       },
     },
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     isActive: true,
     isShowLabel: true,
     html: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -3951,8 +4091,104 @@ export const fieldsInitials = {
       },
     },
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
-    validations: { MIN_MAX_DATE: { min: "", max: "", enabled: false } },
+    dropdown_input: {
+      data: {
+        contentType: "placeholder",
+        defaultText: "",
+        placeholder: "",
+      },
+      styles: {
+        input: {
+          widthPx: 72,
+          widthPercent: 100,
+          height: 44,
+          widthMeasurement: "Px",
+          fill: {
+            color: {
+              isStyleVisible: true,
+              solid: "#fff",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#fff",
+                type: 0,
+                value: {
+                  alpha: 1,
+                  blue: 255,
+                  green: 255,
+                  hue: 0,
+                  red: 255,
+                  saturation: 0,
+                  value: 100,
+                },
+              },
+            },
+          },
+          border: {
+            radius: 8,
+            size: 1,
+            color: {
+              isStyleVisible: true,
+              solid: "#434e5a33",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#434e5a33",
+                type: 0,
+                value: {
+                  alpha: 0.2,
+                  blue: 90,
+                  green: 78,
+                  hue: 211,
+                  red: 67,
+                  saturation: 26,
+                  value: 35,
+                },
+              },
+            },
+          },
+        },
+        inputValue: {
+          family: "Quicksand",
+          weight: "400",
+          size: "16",
+          isItalic: false,
+          isUnderline: false,
+          isStrikethrough: false,
+          alignment: "left",
+          color: {
+            isStyleVisible: true,
+            solid: "#434E5A",
+            gradient: null,
+            imageUrl: null,
+            lastModified: {
+              style: "#434E5A",
+              type: 0,
+              value: {
+                alpha: 0.6,
+                blue: 90,
+                green: 78,
+                hue: 0,
+                red: 67,
+                saturation: 0,
+                value: 97,
+              },
+            },
+          },
+        },
+      },
+    },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
+    validations: {
+      MIN_MAX_DATE: {
+        min: "",
+        max: "",
+        enabled: false,
+      },
+    },
   },
   SELECT_CHECKBOX: {
     label: {
@@ -4077,7 +4313,10 @@ export const fieldsInitials = {
     },
     isRequired: false,
     column_quantity: 2,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     checkedOptions: [],
     validations: {
       MIN_MAX_QUANTITY: {
@@ -4087,7 +4326,10 @@ export const fieldsInitials = {
         validateBy: "LENGTH",
       },
     },
-    payable: { enabled: false, quantity: false },
+    payable: {
+      enabled: false,
+      quantity: false,
+    },
     icon: {
       styles: {
         input: {
@@ -4295,9 +4537,15 @@ export const fieldsInitials = {
     isRequired: false,
     column_quantity: 2,
     defaultValue: "selectedOptionId",
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: {},
-    payable: { enabled: false, quantity: false },
+    payable: {
+      enabled: false,
+      quantity: false,
+    },
     icon: {
       styles: {
         input: {
@@ -4504,8 +4752,14 @@ export const fieldsInitials = {
     },
     isRequired: false,
     defaultValue: "selectedOptionId",
-    tooltip: { enabled: false, text: "" },
-    payable: { enabled: false, quantity: false },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
+    payable: {
+      enabled: false,
+      quantity: false,
+    },
     validations: [],
     icon: {
       styles: {
@@ -4712,7 +4966,10 @@ export const fieldsInitials = {
       },
     },
     isRequired: false,
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     showLine: false,
     validations: {},
     icon: {
@@ -4922,7 +5179,10 @@ export const fieldsInitials = {
     isRequired: false,
     byIpLocation: false,
     defaultValue: "",
-    tooltip: { enabled: false, text: "" },
+    tooltip: {
+      enabled: false,
+      text: "",
+    },
     validations: [],
     icon: {
       styles: {
