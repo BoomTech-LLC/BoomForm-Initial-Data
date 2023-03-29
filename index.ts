@@ -3,7 +3,7 @@ import { formInitials  , IFromsInitials} from "./src/form";
 
 interface IInitials{
   fieldsInitials : IFieldsInitials,
-  formInitials:IFromsInitials
+  formInitials: IFromsInitials
 }
 
 
