@@ -1,11 +1,11 @@
-import { fieldsInitials } from "./src/fields";
-import { formInitials } from "./src/form";
-import { IInitials } from "./src/types";
+const { IInitials } = require("./src/types");
+const fieldsInitials = require("./src/fields").fieldsInitials;
+const formInitials = require("./src/form").formInitials;
 
 
-const initials : IInitials= {
+const initials : typeof IInitials= {
   fieldsInitials,
   formInitials
 }
 
-export default initials
+module.exports = initials;
