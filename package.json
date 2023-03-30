@@ -1,6 +1,7 @@
 {
   "name": "initials",
   "version": "1.0.0",
+  "types": "./src/types/index.d.ts",
   "description": "",
   "main": "./index.ts",
   "scripts": {
