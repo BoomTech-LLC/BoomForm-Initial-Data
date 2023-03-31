@@ -1,9 +1,8 @@
 {
   "name": "initials",
   "version": "1.0.0",
-  "types": "./src/types/index.d.ts",
   "description": "",
-  "main": "./index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

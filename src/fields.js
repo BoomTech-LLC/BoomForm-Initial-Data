@@ -1,6 +1,4 @@
-import { IFieldsInitials } from "./types";
-
-export const fieldsInitials : IFieldsInitials = {
+export const fieldsInitials = {
   INPUT_SINGLE_LINE_TEXT: {
     label: {
       value: "Type a question",

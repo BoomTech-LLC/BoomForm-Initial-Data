@@ -1,7 +1,4 @@
-import { IFromsInitials } from "./types";
-
-
-export const formInitials: IFromsInitials = {
+export const formInitials = {
   current: null,
   isLoading: false,
   error: null,
