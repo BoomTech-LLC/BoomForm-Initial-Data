@@ -6,4 +6,4 @@ const initials = {
   formInitials,
 };
 
-export default JSON.stringify(initials);
+export default initials;
