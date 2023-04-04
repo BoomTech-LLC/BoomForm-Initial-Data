@@ -4232,7 +4232,7 @@ export const fieldsInitials = {
           inputValue: {
             family: "Quicksand",
             weight: "400",
-            size: "17",
+            size: "20",
             isItalic: false,
             isUnderline: false,
             isStrikethrough: false,
