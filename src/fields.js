@@ -4281,7 +4281,7 @@ export const fieldsInitials = {
     isRequired: { value: false, message: "" },
     column_quantity: 2,
     tooltip: { enabled: false, text: "" },
-    checkedOptions: [],
+    checkedOptions: "",
     validations: {
       MIN_MAX_QUANTITY: {
         enabled: false,
