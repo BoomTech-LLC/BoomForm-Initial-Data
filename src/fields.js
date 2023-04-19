@@ -123,21 +123,21 @@ export const fieldsInitials = {
     isRequired: { value: false, message: "" },
     tooltip: { enabled: false, text: "" },
     validations: {
-      LETTERS: { value: false, enabled: false, message: "Must cotain letter" },
-      DIGITS: { value: false, enabled: false, message: "Must cotain number" },
-      EMAIL: { value: false, enabled: false, message: "Error" },
-      URL: { value: false, enabled: false, message: "Error" },
+      LETTERS: { value: false, enabled: false, message: "" },
+      DIGITS: { value: false, enabled: false, message: "" },
+      EMAIL: { value: false, enabled: false, message: "" },
+      URL: { value: false, enabled: false, message: "" },
       REGEX: {
         value: " ",
         enabled: false,
-        message: "Here you can write your regex error message",
+        message: "Write your regex error message.",
       },
       MIN_MAX_QUANTITY: {
         enabled: false,
         min: 0,
         max: 0,
         validateBy: "LENGTH",
-        message: "Max {Max} characters",
+        message: "",
       },
     },
   },
@@ -266,17 +266,21 @@ export const fieldsInitials = {
     isRichText: false,
     tooltip: { enabled: false, text: "" },
     validations: {
-      LETTERS: { value: false, enabled: false, message: "Error" },
-      DIGITS: { value: false, enabled: false, message: "Error" },
-      URL: { value: false, enabled: false, message: "Error" },
-      REGEX: { value: " ", enabled: false, message: "Error" },
-      EMAIL: { value: false, enabled: false, message: "Error" },
+      LETTERS: { value: false, enabled: false, message: "" },
+      DIGITS: { value: false, enabled: false, message: "" },
+      URL: { value: false, enabled: false, message: "" },
+      REGEX: {
+        value: " ",
+        enabled: false,
+        message: "Write your regex error message.",
+      },
+      EMAIL: { value: false, enabled: false, message: "" },
       MIN_MAX_QUANTITY: {
         enabled: false,
         min: 0,
         max: 0,
         validateBy: "LENGTH",
-        message: "Error",
+        message: "",
       },
     },
   },
@@ -711,16 +715,20 @@ export const fieldsInitials = {
       },
     },
     validations: {
-      LETTERS: { value: false, enabled: false, message: "Error" },
-      REGEX: { value: " ", enabled: false, message: "Error" },
+      LETTERS: { value: false, enabled: false, message: "" },
+      REGEX: {
+        value: " ",
+        enabled: false,
+        message: "Write your regex error message.",
+      },
       MIN_MAX_QUANTITY: {
         min: 0,
         max: 0,
         validateBy: "WORD",
         enabled: false,
-        message: "Error",
+        message: "",
       },
-      DIGITS: { value: false, enabled: false, message: "Error" },
+      DIGITS: { value: false, enabled: false, message: "" },
     },
     icon: {
       styles: {
@@ -934,7 +942,7 @@ export const fieldsInitials = {
         min: 0,
         max: 0,
         validateBy: "LENGTH",
-        message: "Error",
+        message: "",
       },
     },
     icon: {
@@ -1149,7 +1157,7 @@ export const fieldsInitials = {
         min: 0,
         max: 0,
         validateBy: "LENGTH",
-        message: "Error",
+        message: "",
       },
     },
     payable: {
@@ -1366,7 +1374,7 @@ export const fieldsInitials = {
     tooltip: { enabled: false, text: "" },
     isActive: false,
     validations: {
-      MIN_MAX_DATE: { min: "", max: "", enabled: false, message: "Error" },
+      MIN_MAX_DATE: { min: "", max: "", enabled: false, message: "" },
     },
     icon: {
       styles: {
@@ -2708,8 +2716,12 @@ export const fieldsInitials = {
     isRequired: { value: false, message: "" },
     tooltip: { enabled: false, text: "" },
     validations: {
-      DOMAIN: { value: " ", enabled: false, message: "Error" },
-      REGEX: { value: " ", enabled: false, message: "Error" },
+      DOMAIN: { value: " ", enabled: false, message: "" },
+      REGEX: {
+        value: " ",
+        enabled: false,
+        message: "Write your regex error message.",
+      },
     },
   },
   HEADING_TEXT: {
@@ -3516,7 +3528,7 @@ export const fieldsInitials = {
         min: 0,
         max: 0,
         validateBy: "LENGTH",
-        message: "Error",
+        message: "",
       },
     },
     tooltip: { enabled: false, text: "" },
@@ -4142,7 +4154,7 @@ export const fieldsInitials = {
     },
     tooltip: { enabled: false, text: "" },
     validations: {
-      MIN_MAX_DATE: { min: "", max: "", enabled: false, message: "Error" },
+      MIN_MAX_DATE: { min: "", max: "", enabled: false, message: "" },
     },
   },
   SELECT_CHECKBOX: {
@@ -4276,7 +4288,7 @@ export const fieldsInitials = {
         min: 0,
         max: 0,
         validateBy: "LENGTH",
-        message: "Error",
+        message: "",
       },
     },
     payable: { enabled: false, quantity: false },
