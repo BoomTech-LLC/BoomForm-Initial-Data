@@ -1374,7 +1374,12 @@ export const fieldsInitials = {
     tooltip: { enabled: false, text: "" },
     isActive: false,
     validations: {
-      MIN_MAX_DATE: { min: "", max: "", enabled: false, message: "" },
+      MIN_MAX_DATE: {
+        min: { option: "past", value: "" },
+        max: { value: "", option: "future" },
+        enabled: false,
+        message: "",
+      },
     },
     icon: {
       styles: {
@@ -4154,7 +4159,12 @@ export const fieldsInitials = {
     },
     tooltip: { enabled: false, text: "" },
     validations: {
-      MIN_MAX_DATE: { min: "", max: "", enabled: false, message: "" },
+      MIN_MAX_DATE: {
+        min: { option: "", value: "" },
+        max: { option: "", value: "" },
+        enabled: false,
+        message: "",
+      },
     },
   },
   SELECT_CHECKBOX: {
