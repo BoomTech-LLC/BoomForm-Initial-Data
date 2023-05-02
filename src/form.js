@@ -2,6 +2,12 @@ export const formInitials = {
   current: null,
   isLoading: false,
   error: null,
+  settings: {
+    native: {
+      currency: "USD",
+      priceFormat: "100$",
+    },
+  },
   fonts: [
     {
       family: "Quicksand",
