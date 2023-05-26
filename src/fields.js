@@ -1376,7 +1376,7 @@ export const fieldsInitials = {
     validations: {
       MIN_MAX_DATE: {
         min: { option: "past", value: "" },
-        max: { value: "", option: "future" },
+        max: { option: "future", value: "" },
         enabled: false,
         message: "",
       },
@@ -4301,7 +4301,6 @@ export const fieldsInitials = {
         message: "",
       },
     },
-    payable: { enabled: false, quantity: false },
     icon: {
       styles: {
         input: {
@@ -4383,6 +4382,11 @@ export const fieldsInitials = {
           },
         },
       },
+    },
+    paymentOptions: {
+      enabled: false,
+      quantity: { enabled: false, value: 0 },
+      custom: { enabled: false, value: [] },
     },
   },
   SELECT_RADIO: {
@@ -4511,7 +4515,6 @@ export const fieldsInitials = {
     defaultValue: "selectedOptionId",
     tooltip: { enabled: false, text: "" },
     validations: {},
-    payable: { enabled: false, quantity: false },
     icon: {
       styles: {
         input: {
@@ -4593,6 +4596,11 @@ export const fieldsInitials = {
           },
         },
       },
+    },
+    paymentOptions: {
+      enabled: false,
+      quantity: { enabled: false, value: 0 },
+      custom: { enabled: false, value: [] },
     },
   },
   SELECT_DROPDOWN: {
@@ -4719,7 +4727,6 @@ export const fieldsInitials = {
     isRequired: { value: false, message: "" },
     defaultValue: "selectedOptionId",
     tooltip: { enabled: false, text: "" },
-    payable: { enabled: false, quantity: false },
     validations: [],
     icon: {
       styles: {
@@ -4802,6 +4809,11 @@ export const fieldsInitials = {
           },
         },
       },
+    },
+    paymentOptions: {
+      enabled: false,
+      quantity: { enabled: false, value: 0 },
+      custom: { enabled: false, value: [] },
     },
   },
   SIGNATURE: {
