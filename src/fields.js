@@ -1160,11 +1160,7 @@ export const fieldsInitials = {
         message: "",
       },
     },
-    payable: {
-      setPrice: false,
-      ammount: false,
-      limit: { enabled: false, min: 0, max: 0 },
-    },
+    value: { enabled: false, min: 0, max: 0 },
     icon: {
       styles: {
         input: {
@@ -3537,11 +3533,7 @@ export const fieldsInitials = {
       },
     },
     tooltip: { enabled: false, text: "" },
-    payable: {
-      setPrice: false,
-      ammount: false,
-      limit: { enabled: false, min: 0, max: 0 },
-    },
+    value: { enabled: false, min: 0, max: 0 },
   },
   MAP: {
     label: {
