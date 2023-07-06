@@ -132,7 +132,7 @@ export const fieldsInitials = {
         enabled: false,
         message: "Write your regex error message.",
       },
-      MIN_MAX_QUANTITY: {
+      MIN_MAX_STRING_LENGTH: {
         enabled: false,
         min: 0,
         max: 0,
@@ -275,7 +275,7 @@ export const fieldsInitials = {
         message: "Write your regex error message.",
       },
       EMAIL: { value: false, enabled: false, message: "" },
-      MIN_MAX_QUANTITY: {
+      MIN_MAX_STRING_LENGTH: {
         enabled: false,
         min: 0,
         max: 0,
@@ -721,7 +721,7 @@ export const fieldsInitials = {
         enabled: false,
         message: "Write your regex error message.",
       },
-      MIN_MAX_QUANTITY: {
+      MIN_MAX_STRING_LENGTH: {
         min: 0,
         max: 0,
         validateBy: "WORD",
@@ -4285,7 +4285,7 @@ export const fieldsInitials = {
     tooltip: { enabled: false, text: "" },
     checkedOptions: "",
     validations: {
-      MIN_MAX_QUANTITY: {
+      MIN_MAX_OPTIONS: {
         enabled: false,
         min: 0,
         max: 0,
