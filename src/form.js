@@ -148,25 +148,6 @@ export const formInitials = {
       widthPx: null,
       widthPercent: 100,
       widthMeasurement: "Px",
-      color: {
-        isStyleVisible: true,
-        solid: "#33bfa1",
-        gradient: null,
-        imageUrl: null,
-        lastModified: {
-          style: "#33bfa1",
-          type: 0,
-          value: {
-            alpha: 0.2,
-            blue: 90,
-            green: 78,
-            hue: 211,
-            red: 67,
-            saturation: 26,
-            value: 35,
-          },
-        },
-      },
       fill: {
         color: {
           isStyleVisible: true,
