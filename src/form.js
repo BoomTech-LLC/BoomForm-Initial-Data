@@ -144,5 +144,73 @@ export const formInitials = {
         },
       },
     },
+    submit: {
+      widthPx: null,
+      widthPercent: 100,
+      widthMeasurement: "Px",
+      color: {
+        isStyleVisible: true,
+        solid: "#33bfa1",
+        gradient: null,
+        imageUrl: null,
+        lastModified: {
+          style: "#33bfa1",
+          type: 0,
+          value: {
+            alpha: 0.2,
+            blue: 90,
+            green: 78,
+            hue: 211,
+            red: 67,
+            saturation: 26,
+            value: 35,
+          },
+        },
+      },
+      fill: {
+        color: {
+          isStyleVisible: true,
+          solid: "#33bfa1",
+          gradient: null,
+          imageUrl: null,
+          lastModified: {
+            style: "#33bfa1",
+            type: 0,
+            value: {
+              alpha: 0.2,
+              blue: 90,
+              green: 78,
+              hue: 211,
+              red: 67,
+              saturation: 26,
+              value: 35,
+            },
+          },
+        },
+      },
+      border: {
+        radius: 8,
+        size: 0,
+        color: {
+          isStyleVisible: true,
+          solid: "#434e5a33",
+          gradient: null,
+          imageUrl: null,
+          lastModified: {
+            style: "#434e5a33",
+            type: 0,
+            value: {
+              alpha: 0.2,
+              blue: 90,
+              green: 78,
+              hue: 211,
+              red: 67,
+              saturation: 26,
+              value: 35,
+            },
+          },
+        },
+      },
+    },
   },
 };
