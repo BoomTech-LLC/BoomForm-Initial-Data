@@ -145,7 +145,7 @@ export const formInitials = {
       },
     },
     submit: {
-      widthPx: null,
+      widthPx: 100,
       widthPercent: 100,
       widthMeasurement: "Px",
       fill: {
