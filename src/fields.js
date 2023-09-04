@@ -5355,34 +5355,34 @@ export const fieldsInitials = {
       defaultText: "Apply",
       styles: {
         input: {
-          widthPx: null,
+          widthPx: 67,
           widthPercent: 100,
           height: 44,
-          widthMeasurement: "Percent",
+          widthMeasurement: "Px",
           fill: {
             color: {
               isStyleVisible: true,
-              solid: "#fff",
+              solid: "#1DCFA9",
               gradient: null,
               imageUrl: null,
               lastModified: {
-                style: "#fff",
+                style: "#1DCFA9",
                 type: 0,
                 value: {
-                  alpha: 1,
-                  blue: 255,
-                  green: 255,
+                  alpha: 0.6,
+                  blue: 90,
+                  green: 78,
                   hue: 0,
-                  red: 255,
+                  red: 67,
                   saturation: 0,
-                  value: 100,
+                  value: 97,
                 },
               },
             },
           },
           border: {
             radius: 8,
-            size: 1,
+            size: "0",
             color: {
               isStyleVisible: true,
               solid: "#434e5a33",
@@ -5414,11 +5414,11 @@ export const fieldsInitials = {
           alignment: "left",
           color: {
             isStyleVisible: true,
-            solid: "#434E5A",
+            solid: "#F8F8F8",
             gradient: null,
             imageUrl: null,
             lastModified: {
-              style: "#434E5A",
+              style: "#F8F8F8",
               type: 0,
               value: {
                 alpha: 0.6,
