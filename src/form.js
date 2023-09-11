@@ -176,7 +176,7 @@ export const formInitials = {
               },
               border: {
                 radius: 8,
-                size: 1,
+                size: "0",
                 color: {
                   isStyleVisible: true,
                   solid: "#434e5a33",
