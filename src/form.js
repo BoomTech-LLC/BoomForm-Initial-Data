@@ -141,49 +141,89 @@ export const formInitials = {
     },
     buttons: {
       submit: {
-        widthMeasurement: "Px",
-        widthPercent: 100,
-        widthPx: 80,
-        border: {
-          radius: 8,
-          size: 0,
-          color: {
-            isStyleVisible: true,
-            solid: "#434e5a33",
-            gradient: null,
-            imageUrl: null,
-            lastModified: {
-              style: "#434e5a33",
-              type: 0,
-              value: {
-                alpha: 0.2,
-                blue: 90,
-                green: 78,
-                hue: 211,
-                red: 67,
-                saturation: 26,
-                value: 35,
+        input: {
+          data: {
+            contentType: "placeholder",
+            defaultText: "Back",
+            placeholder: "Back",
+          },
+          styles: {
+            input: {
+              widthPx: 80,
+              widthPercent: 100,
+              height: 44,
+              widthMeasurement: "Px",
+              fill: {
+                color: {
+                  isStyleVisible: true,
+                  solid: "#33bfa1",
+                  gradient: null,
+                  imageUrl: null,
+                  lastModified: {
+                    style: "#33bfa1",
+                    type: 0,
+                    value: {
+                      alpha: 0.2,
+                      blue: 90,
+                      green: 78,
+                      hue: 211,
+                      red: 67,
+                      saturation: 26,
+                      value: 35,
+                    },
+                  },
+                },
+              },
+              border: {
+                radius: 8,
+                size: 1,
+                color: {
+                  isStyleVisible: true,
+                  solid: "#434e5a33",
+                  gradient: null,
+                  imageUrl: null,
+                  lastModified: {
+                    style: "#434e5a33",
+                    type: 0,
+                    value: {
+                      alpha: 0.2,
+                      blue: 90,
+                      green: 78,
+                      hue: 211,
+                      red: 67,
+                      saturation: 26,
+                      value: 35,
+                    },
+                  },
+                },
               },
             },
-          },
-        },
-        fill: {
-          color: {
-            isStyleVisible: true,
-            solid: "#33bfa1",
-            gradient: null,
-            imageUrl: null,
-            lastModified: {
-              style: "#33bfa1",
-              type: 0,
-              value: {
-                alpha: 0.2,
-                blue: 90,
-                green: 78,
-                hue: 211,
-                red: 67,
-                saturation: 26,
-                value: 35,
+            inputValue: {
+              family: "Quicksand",
+              weight: "400",
+              size: "16",
+              isItalic: false,
+              isUnderline: false,
+              isStrikethrough: false,
+              alignment: "left",
+              color: {
+                isStyleVisible: true,
+                solid: "#434E5A",
+                gradient: null,
+                imageUrl: null,
+                lastModified: {
+                  style: "#434E5A",
+                  type: 0,
+                  value: {
+                    alpha: 0.6,
+                    blue: 90,
+                    green: 78,
+                    hue: 0,
+                    red: 67,
+                    saturation: 0,
+                    value: 97,
+                  },
+                },
               },
             },
           },
