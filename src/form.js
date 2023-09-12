@@ -144,8 +144,8 @@ export const formInitials = {
         input: {
           data: {
             contentType: "placeholder",
-            defaultText: "Back",
-            placeholder: "Back",
+            defaultText: "Submit",
+            placeholder: "Submit",
           },
           styles: {
             input: {
@@ -163,7 +163,7 @@ export const formInitials = {
                     style: "#33bfa1",
                     type: 0,
                     value: {
-                      alpha: 1,
+                      alpha: 0.2,
                       blue: 90,
                       green: 78,
                       hue: 211,
@@ -208,20 +208,20 @@ export const formInitials = {
               alignment: "left",
               color: {
                 isStyleVisible: true,
-                solid: "#434E5A",
+                solid: "#FFFFFF",
                 gradient: null,
                 imageUrl: null,
                 lastModified: {
-                  style: "#434E5A",
+                  style: "#FFFFFF",
                   type: 0,
                   value: {
-                    alpha: 0.6,
+                    alpha: 1,
                     blue: 90,
                     green: 78,
-                    hue: 0,
+                    hue: 211,
                     red: 67,
-                    saturation: 0,
-                    value: 97,
+                    saturation: 26,
+                    value: 35,
                   },
                 },
               },
