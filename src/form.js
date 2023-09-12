@@ -200,7 +200,7 @@ export const formInitials = {
             },
             inputValue: {
               family: "Quicksand",
-              weight: "400",
+              weight: "500",
               size: "16",
               isItalic: false,
               isUnderline: false,
@@ -208,11 +208,11 @@ export const formInitials = {
               alignment: "left",
               color: {
                 isStyleVisible: true,
-                solid: "#FFFFFF",
+                solid: "#F8F8F8",
                 gradient: null,
                 imageUrl: null,
                 lastModified: {
-                  style: "#FFFFFF",
+                  style: "#F8F8F8",
                   type: 0,
                   value: {
                     alpha: 1,
