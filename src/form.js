@@ -346,8 +346,8 @@ export const formInitials = {
                 },
               },
               border: {
-                radius: 8,
-                size: 1,
+                radius: 50,
+                size: "0",
                 color: {
                   isStyleVisible: true,
                   solid: "#33bfa1",
@@ -372,7 +372,7 @@ export const formInitials = {
             inputValue: {
               family: "Quicksand",
               weight: "400",
-              size: "20",
+              size: "24",
               isItalic: false,
               isUnderline: false,
               isStrikethrough: false,
@@ -517,8 +517,8 @@ export const formInitials = {
                 },
               },
               border: {
-                radius: 8,
-                size: 1,
+                radius: 50,
+                size: "0",
                 color: {
                   isStyleVisible: true,
                   solid: "#33bfa1",
@@ -543,7 +543,7 @@ export const formInitials = {
             inputValue: {
               family: "Quicksand",
               weight: "400",
-              size: "20",
+              size: "24",
               isItalic: false,
               isUnderline: false,
               isStrikethrough: false,
