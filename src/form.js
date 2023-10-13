@@ -149,7 +149,7 @@ export const formInitials = {
           },
           styles: {
             input: {
-              widthPx: 80,
+              widthPx: null,
               widthPercent: 100,
               height: 44,
               widthMeasurement: "Px",
