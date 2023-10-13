@@ -237,7 +237,7 @@ export const formInitials = {
           },
           styles: {
             input: {
-              widthPx: 88,
+              widthPx: null,
               widthPercent: 100,
               height: 44,
               widthMeasurement: "Px",
@@ -427,7 +427,7 @@ export const formInitials = {
           },
           styles: {
             input: {
-              widthPx: 100,
+              widthPx: null,
               widthPercent: 100,
               height: 44,
               widthMeasurement: "Px",
