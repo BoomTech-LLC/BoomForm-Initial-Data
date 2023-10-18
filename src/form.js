@@ -163,7 +163,7 @@ export const formInitials = {
                     style: "#33bfa1",
                     type: 0,
                     value: {
-                      alpha: 0.2,
+                      alpha: 1,
                       blue: 90,
                       green: 78,
                       hue: 211,
@@ -186,7 +186,7 @@ export const formInitials = {
                     style: "#33bfa1",
                     type: 0,
                     value: {
-                      alpha: 0.01,
+                      alpha: 1,
                       green: 79,
                       hue: 211,
                       red: 58,
@@ -274,7 +274,7 @@ export const formInitials = {
                     style: "#33bfa1",
                     type: 0,
                     value: {
-                      alpha: 0.2,
+                      alpha: 1,
                       blue: 90,
                       green: 78,
                       hue: 211,
@@ -441,7 +441,7 @@ export const formInitials = {
                     style: "#33bfa1",
                     type: 0,
                     value: {
-                      alpha: 0.2,
+                      alpha: 1,
                       blue: 90,
                       green: 78,
                       hue: 211,
@@ -464,7 +464,7 @@ export const formInitials = {
                     style: "#33bfa1",
                     type: 0,
                     value: {
-                      alpha: 0.01,
+                      alpha: 1,
                       green: 79,
                       hue: 211,
                       red: 58,
