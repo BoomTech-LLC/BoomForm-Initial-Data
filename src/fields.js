@@ -4284,6 +4284,7 @@ export const fieldsInitials = {
     column_quantity: 2,
     tooltip: { enabled: false, text: "" },
     checkedOptions: "",
+    options: null,
     validations: {
       MIN_MAX_OPTIONS: {
         enabled: false,
