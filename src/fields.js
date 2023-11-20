@@ -3659,6 +3659,7 @@ export const fieldsInitials = {
     isRequired: { value: false, message: "" },
     center: { lat: 48.85837009999999, lng: 2.2944813 },
     zoom: 4,
+    markers: null,
     tooltip: { enabled: false, text: "" },
     validations: [],
   },
@@ -4506,6 +4507,7 @@ export const fieldsInitials = {
     isRequired: { value: false, message: "" },
     column_quantity: 2,
     defaultValue: "selectedOptionId",
+    options: null,
     tooltip: { enabled: false, text: "" },
     validations: {},
     icon: {
@@ -4719,6 +4721,7 @@ export const fieldsInitials = {
     },
     isRequired: { value: false, message: "" },
     defaultValue: "selectedOptionId",
+    options: null,
     tooltip: { enabled: false, text: "" },
     validations: [],
     icon: {
