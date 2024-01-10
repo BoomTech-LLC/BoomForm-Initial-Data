@@ -3,6 +3,21 @@ export const formInitials = {
   isLoading: false,
   settings: { native: { currency: "USD", priceFormat: "100$" } },
   error: null,
+  validations: {
+    IS_REQUIRED: "This field must not be empty.",
+    LETTERS: "Must contain letter.",
+    DIGITS: "Must contain number.",
+    MIN_MAX_QUANTITY: "Please enter a value between {min} and {max}.",
+    EMAIL: "Please enter a valid Email address.",
+    URL: "Please enter a valid URL.",
+    REGEX: "Write your regex error message.",
+    DOMAIN: "Please enter a valid domain.",
+    MIN_MAX_DATE: "Please enter a valid date.",
+    MIN_MAX_STRING_LENGTH:
+      "Please enter at least {min} characters and no more than {max} characters.",
+    MIN_MAX_OPTIONS:
+      "Please select at least {min} options and no more than {max} options",
+  },
   fonts: [
     {
       family: "Quicksand",
