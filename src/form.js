@@ -108,35 +108,33 @@ export const formInitials = {
     },
 
     formName: {
-      input: {
-        data: {},
-        styles: {
-          input: {},
-          inputValue: {
-            family: "Quicksand",
-            weight: "400",
-            size: "16",
-            isItalic: false,
-            isUnderline: false,
-            isStrikethrough: false,
-            alignment: "center",
-            color: {
-              isStyleVisible: true,
-              solid: "#434E5A",
-              gradient: null,
-              imageUrl: null,
-              lastModified: {
-                style: "#434E5A",
-                type: 0,
-                value: {
-                  alpha: 0.6,
-                  blue: 90,
-                  green: 78,
-                  hue: 0,
-                  red: 67,
-                  saturation: 0,
-                  value: 97,
-                },
+      data: {},
+      styles: {
+        input: {},
+        inputValue: {
+          family: "Quicksand",
+          weight: "400",
+          size: "16",
+          isItalic: false,
+          isUnderline: false,
+          isStrikethrough: false,
+          alignment: "center",
+          color: {
+            isStyleVisible: true,
+            solid: "#434E5A",
+            gradient: null,
+            imageUrl: null,
+            lastModified: {
+              style: "#434E5A",
+              type: 0,
+              value: {
+                alpha: 0.6,
+                blue: 90,
+                green: 78,
+                hue: 0,
+                red: 67,
+                saturation: 0,
+                value: 97,
               },
             },
           },
