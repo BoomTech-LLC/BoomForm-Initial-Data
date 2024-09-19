@@ -5908,18 +5908,18 @@ export const fieldsInitials = {
         inputValue: {
           family: "Quicksand",
           weight: "400",
-          size: "20",
+          size: "44",
           isItalic: false,
           isUnderline: false,
           isStrikethrough: false,
           alignment: "left",
           color: {
             isStyleVisible: true,
-            solid: "#434E5A",
+            solid: "#1DCFA9",
             gradient: null,
             imageUrl: null,
             lastModified: {
-              style: "#434E5A",
+              style: "#1DCFA9",
               type: 0,
               value: {
                 alpha: 0.6,
