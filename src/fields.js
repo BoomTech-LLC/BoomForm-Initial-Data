@@ -5826,7 +5826,7 @@ export const fieldsInitials = {
           isItalic: false,
           isUnderline: false,
           isStrikethrough: false,
-          alignment: "left",
+          alignment: "center",
           color: {
             isStyleVisible: true,
             solid: "#434E5A",
@@ -5912,7 +5912,7 @@ export const fieldsInitials = {
           isItalic: false,
           isUnderline: false,
           isStrikethrough: false,
-          alignment: "left",
+          alignment: "center",
           color: {
             isStyleVisible: true,
             solid: "#1DCFA9",
