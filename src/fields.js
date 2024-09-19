@@ -5908,7 +5908,7 @@ export const fieldsInitials = {
         inputValue: {
           family: "Quicksand",
           weight: "400",
-          size: "44",
+          size: "35",
           isItalic: false,
           isUnderline: false,
           isStrikethrough: false,
