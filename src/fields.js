@@ -5849,7 +5849,7 @@ export const fieldsInitials = {
         },
       },
     },
-    isRequired: { message: "", value: true },
+    isRequired: { message: "", value: false },
     tooltip: { enabled: false, text: "" },
     validations: {},
     isMultiple: false,
