@@ -7,6 +7,7 @@ export const paymentInitial = {
       cash: false,
       paypal: false,
       stripe: false,
+      square: false
     },
     paymentReceipt: {
       name: "",
