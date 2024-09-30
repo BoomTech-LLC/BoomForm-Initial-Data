@@ -5851,7 +5851,15 @@ export const fieldsInitials = {
     },
     isRequired: { message: "", value: false },
     tooltip: { enabled: false, text: "" },
-    validations: {},
+    validations: {
+      MIN_MAX_QUANTITY: {
+        enabled: false,
+        min: 0,
+        max: 0,
+        validateBy: "SIZE",
+        message: "",
+      },
+    },
     isMultiple: false,
     icon: {
       styles: {
