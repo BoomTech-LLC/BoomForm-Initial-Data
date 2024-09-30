@@ -5852,7 +5852,7 @@ export const fieldsInitials = {
     isRequired: { message: "", value: false },
     tooltip: { enabled: false, text: "" },
     validations: {
-      MIN_MAX_QUANTITY: {
+      MIN_MAX_SIZE: {
         enabled: false,
         min: 0,
         max: 0,
