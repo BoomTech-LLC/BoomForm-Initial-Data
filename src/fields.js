@@ -5853,10 +5853,18 @@ export const fieldsInitials = {
     tooltip: { enabled: false, text: "" },
     validations: {
       MIN_MAX_SIZE: {
-        enabled: false,
+        sizeType: "bytes",
         min: 0,
         max: 0,
         validateBy: "SIZE",
+        enabled: false,
+        message: "",
+      },
+      FILE_TYPE_FORMAT: {
+        type: [],
+        format: [],
+        validateBy: "TYPE_FORMAT",
+        enabled: false,
         message: "",
       },
     },
