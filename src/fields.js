@@ -5853,7 +5853,7 @@ export const fieldsInitials = {
     tooltip: { enabled: false, text: "" },
     validations: {
       MIN_MAX_SIZE: {
-        sizeType: "bytes",
+        sizeType: "byte",
         min: 0,
         max: 0,
         validateBy: "SIZE",
@@ -5863,6 +5863,7 @@ export const fieldsInitials = {
       FILE_TYPE_FORMAT: {
         type: [],
         format: [],
+        fileTypeFormat: 'type',
         validateBy: "TYPE_FORMAT",
         enabled: false,
         message: "",
