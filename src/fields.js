@@ -5861,8 +5861,8 @@ export const fieldsInitials = {
         message: "",
       },
       FILE_TYPE_FORMAT: {
-        type: [],
-        format: [],
+        types: [],
+        formats: [],
         fileTypeFormat: 'type',
         validateBy: "TYPE_FORMAT",
         enabled: false,

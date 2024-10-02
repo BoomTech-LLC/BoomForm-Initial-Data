@@ -8,6 +8,7 @@ export const formInitials = {
     LETTERS: "Must contain letter.",
     DIGITS: "Must contain number.",
     MIN_MAX_QUANTITY: "Please enter a value between {min} and {max}.",
+    MIN_MAX_SIZE: "Please upload a file between {min} and {max} {sizeType}",
     EMAIL: "Please enter a valid Email address.",
     URL: "Please enter a valid URL.",
     REGEX: "Write your regex error message.",
