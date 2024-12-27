@@ -3534,6 +3534,178 @@ export const fieldsInitials = {
     },
     tooltip: { enabled: false, text: "" },
     value: { enabled: false, min: 0, max: 0 },
+    currency: {
+      value: "USD",
+      input: {
+        data: {
+          contentType: "placeholder",
+          defaultText: "",
+          placeholder: "Placeholder",
+        },
+        styles: {
+          input: {
+            widthPx: 216,
+            widthPercent: 100,
+            height: 44,
+            widthMeasurement: "Px",
+            fill: {
+              color: {
+                isStyleVisible: true,
+                solid: "#fff",
+                gradient: null,
+                imageUrl: null,
+                lastModified: {
+                  style: "#fff",
+                  type: 0,
+                  value: {
+                    alpha: 1,
+                    blue: 255,
+                    green: 255,
+                    hue: 0,
+                    red: 255,
+                    saturation: 0,
+                    value: 100,
+                  },
+                },
+              },
+            },
+            border: {
+              radius: 8,
+              size: 1,
+              color: {
+                isStyleVisible: true,
+                solid: "#434e5a33",
+                gradient: null,
+                imageUrl: null,
+                lastModified: {
+                  style: "#434e5a33",
+                  type: 0,
+                  value: {
+                    alpha: 0.2,
+                    blue: 90,
+                    green: 78,
+                    hue: 211,
+                    red: 67,
+                    saturation: 26,
+                    value: 35,
+                  },
+                },
+              },
+            },
+          },
+          inputValue: {
+            family: "Quicksand",
+            weight: "400",
+            size: "16",
+            isItalic: false,
+            isUnderline: false,
+            isStrikethrough: false,
+            alignment: "left",
+            color: {
+              isStyleVisible: true,
+              solid: "#434E5A",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#434E5A",
+                type: 0,
+                value: {
+                  alpha: 0.6,
+                  blue: 90,
+                  green: 78,
+                  hue: 0,
+                  red: 67,
+                  saturation: 0,
+                  value: 97,
+                },
+              },
+            },
+          },
+        },
+        icon: {
+          styles: {
+            input: {
+              widthPx: null,
+              widthPercent: 100,
+              height: 44,
+              widthMeasurement: "Percent",
+              fill: {
+                color: {
+                  isStyleVisible: true,
+                  solid: "#434E5A",
+                  gradient: null,
+                  imageUrl: null,
+                  lastModified: {
+                    style: "#434E5A",
+                    type: 0,
+                    value: {
+                      alpha: 1,
+                      blue: 255,
+                      green: 255,
+                      hue: 0,
+                      red: 255,
+                      saturation: 0,
+                      value: 100,
+                    },
+                  },
+                },
+              },
+              border: {
+                radius: 8,
+                size: 1,
+                color: {
+                  isStyleVisible: true,
+                  solid: "#33bfa1",
+                  gradient: null,
+                  imageUrl: null,
+                  lastModified: {
+                    style: "#33bfa1",
+                    type: 0,
+                    value: {
+                      alpha: 0.2,
+                      blue: 90,
+                      green: 78,
+                      hue: 211,
+                      red: 67,
+                      saturation: 26,
+                      value: 35,
+                    },
+                  },
+                },
+              },
+            },
+            inputValue: {
+              family: "Quicksand",
+              weight: "400",
+              size: "20",
+              isItalic: false,
+              isUnderline: false,
+              isStrikethrough: false,
+              alignment: "left",
+              color: {
+                isStyleVisible: true,
+                solid: "#434E5A",
+                gradient: null,
+                imageUrl: null,
+                lastModified: {
+                  style: "#434E5A",
+                  type: 0,
+                  value: {
+                    alpha: 0.6,
+                    blue: 90,
+                    green: 78,
+                    hue: 0,
+                    red: 67,
+                    saturation: 0,
+                    value: 97,
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
   },
   MAP: {
     label: {
