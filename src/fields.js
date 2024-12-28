@@ -4601,6 +4601,27 @@ export const fieldsInitials = {
           widthPercent: 100,
           height: 44,
           widthMeasurement: "Percent",
+          fill: {
+            color: {
+              isStyleVisible: true,
+              solid: "#fff",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#fff",
+                type: 0,
+                value: {
+                  alpha: 1,
+                  blue: 255,
+                  green: 255,
+                  hue: 0,
+                  red: 255,
+                  saturation: 0,
+                  value: 100,
+                },
+              },
+            },
+          },
           border: {
             radius: 8,
             size: 1,
