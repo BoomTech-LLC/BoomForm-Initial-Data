@@ -4608,10 +4608,10 @@ export const fieldsInitials = {
               gradient: null,
               imageUrl: null,
               lastModified: {
-                style: "#fff",
+                style: "#ffffffff",
                 type: 0,
                 value: {
-                  alpha: 1,
+                  alpha: 0,
                   blue: 255,
                   green: 255,
                   hue: 0,
