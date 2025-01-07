@@ -937,7 +937,7 @@ export const fieldsInitials = {
     country: "AM",
     search: "",
     validations: {
-      MIN_MAX_QUANTITY: {
+      MIN_MAX_STRING_LENGTH: {
         enabled: false,
         min: 0,
         max: 0,
