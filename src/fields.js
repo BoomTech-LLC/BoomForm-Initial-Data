@@ -320,7 +320,7 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: { value: false, message: "" },
-    isMiddleName: true,
+    isMiddleName: false,
     tooltip: { enabled: false, text: "" },
     first_name: {
       input: {
