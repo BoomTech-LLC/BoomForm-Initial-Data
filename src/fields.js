@@ -178,7 +178,7 @@ export const fieldsInitials = {
     input: {
       data: {
         contentType: "placeholder",
-        defaultText: "Placeholder",
+        defaultText: "",
         placeholder: "",
       },
       styles: {
