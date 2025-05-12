@@ -107,7 +107,7 @@ export const fieldsInitials = {
               style: "#434E5A",
               type: 0,
               value: {
-                alpha: 0.6,
+                alpha: 0.3,
                 blue: 90,
                 green: 78,
                 hue: 0,
