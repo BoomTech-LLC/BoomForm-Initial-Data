@@ -22,25 +22,21 @@ export const formInitials = {
   },
   fonts: [
     {
-            family: "Montserrat",
-            variants: ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-            subsets: ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
-            version: "v25",
-            files: {
-                "100": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pHjnV6jasN9-8w.ttf",
-                "200": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pElmV6jasN9-8w.ttf",
-                "300": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pGImV6jasN9-8w.ttf",
-                regular:
-                    "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pHjnV6jasN9-8w.ttf",
-                "500": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pF1mV6jasN9-8w.ttf",
-                "600": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pD-mF6jasN9-8w.ttf",
-                "700": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pCzml6jasN9-8w.ttf",
-                "800": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pE3mF6jasN9-8w.ttf",
-                "900": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pFXmF6jasN9-8w.ttf",
-            },
-            category: "sans-serif",
-            kind: "webfonts#webfont",
+      family: "Montserrat",
+      variants: ["300", "regular", "500", "600", "700"],
+      subsets: ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+      version: "v25",
+      files: {
+          "300": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pGImV6jasN9-8w.ttf",
+          regular:
+              "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pHjnV6jasN9-8w.ttf",
+          "500": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pF1mV6jasN9-8w.ttf",
+          "600": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pD-mF6jasN9-8w.ttf",
+          "700": "http://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpSv69pCzml6jasN9-8w.ttf",
       },
+      category: "sans-serif",
+      kind: "webfonts#webfont",
+    },
     {
       family: "Quicksand",
       variants: ["300", "regular", "500", "600", "700"],
