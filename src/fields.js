@@ -332,7 +332,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 32.9,
+            widthPercent: 45,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -422,7 +422,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 32.8,
+            widthPercent: 45,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -512,7 +512,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 32.9,
+            widthPercent: 45,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
