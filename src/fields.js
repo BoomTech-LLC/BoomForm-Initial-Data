@@ -4,7 +4,7 @@ export const fieldsInitials = {
       value: "Type a question",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -91,7 +91,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -141,12 +141,12 @@ export const fieldsInitials = {
       },
     },
   },
-  INPUT_MULTI_LINE_TEXT: {
+  INPUT_TABLE: {
     label: {
       value: "Type a question",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -178,7 +178,7 @@ export const fieldsInitials = {
     input: {
       data: {
         contentType: "placeholder",
-        defaultText: "",
+        defaultText: "Placeholder",
         placeholder: "",
       },
       styles: {
@@ -233,7 +233,144 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
+          weight: "400",
+          size: "16",
+          isItalic: false,
+          isUnderline: false,
+          isStrikethrough: false,
+          alignment: "left",
+          color: {
+            isStyleVisible: true,
+            solid: "#434E5A",
+            gradient: null,
+            imageUrl: null,
+            lastModified: {
+              style: "#434E5A",
+              type: 0,
+              value: {
+                alpha: 0.6,
+                blue: 90,
+                green: 78,
+                hue: 0,
+                red: 67,
+                saturation: 0,
+                value: 97,
+              },
+            },
+          },
+        },
+      },
+    },
+    rows: ["Row 1", "Row 2", "Row 3"],
+    columns: ["Col 1", "Col 2", "Col 3"],
+    isRequired: { value: false, message: "" },
+    options: {
+      "1-1": true,
+      "1-2": true,
+      "1-3": true,
+      "2-1": true,
+      "2-2": true,
+      "2-3": true,
+      "3-1": true,
+      "3-2": true,
+      "3-3": true,
+    },
+    tooltip: { enabled: false, text: "" },
+  },
+  INPUT_MULTI_LINE_TEXT: {
+    label: {
+      value: "Type a question",
+      hidden: false,
+      styles: {
+        family: "Montserrat",
+        weight: "500",
+        size: "20",
+        isItalic: false,
+        isUnderline: false,
+        isStrikethrough: false,
+        alignment: "top_left",
+        length: 0,
+        color: {
+          isStyleVisible: true,
+          solid: "#434e5a",
+          gradient: null,
+          imageUrl: null,
+          lastModified: {
+            style: "#434e5a",
+            type: 0,
+            value: {
+              alpha: 1,
+              blue: 90,
+              green: 78,
+              hue: 0,
+              red: 67,
+              saturation: 0,
+              value: 97,
+            },
+          },
+        },
+      },
+    },
+    input: {
+      data: {
+        contentType: "placeholder",
+        defaultText: "Placeholder",
+        placeholder: "",
+      },
+      styles: {
+        input: {
+          widthPx: null,
+          widthPercent: 100,
+          height: 44,
+          widthMeasurement: "Percent",
+          fill: {
+            color: {
+              isStyleVisible: true,
+              solid: "#fff",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#fff",
+                type: 0,
+                value: {
+                  alpha: 1,
+                  blue: 255,
+                  green: 255,
+                  hue: 0,
+                  red: 255,
+                  saturation: 0,
+                  value: 100,
+                },
+              },
+            },
+          },
+          border: {
+            radius: 8,
+            size: 1,
+            color: {
+              isStyleVisible: true,
+              solid: "#434e5a33",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#434e5a33",
+                type: 0,
+                value: {
+                  alpha: 0.2,
+                  blue: 90,
+                  green: 78,
+                  hue: 211,
+                  red: 67,
+                  saturation: 26,
+                  value: 35,
+                },
+              },
+            },
+          },
+        },
+        inputValue: {
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -289,7 +426,7 @@ export const fieldsInitials = {
       value: "Name",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -320,7 +457,7 @@ export const fieldsInitials = {
     },
     isShowLabel: true,
     isRequired: { value: false, message: "" },
-    isMiddleName: false,
+    isMiddleName: true,
     tooltip: { enabled: false, text: "" },
     first_name: {
       input: {
@@ -332,7 +469,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 45,
+            widthPercent: 32.9,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -381,7 +518,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -422,7 +559,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 45,
+            widthPercent: 32.8,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -471,7 +608,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -512,7 +649,7 @@ export const fieldsInitials = {
         styles: {
           input: {
             widthPx: null,
-            widthPercent: 45,
+            widthPercent: 32.9,
             height: 44,
             widthMeasurement: "Percent",
             fill: {
@@ -561,7 +698,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -599,7 +736,7 @@ export const fieldsInitials = {
       value: "Password",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -685,7 +822,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -783,7 +920,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "20",
           isItalic: false,
@@ -818,7 +955,7 @@ export const fieldsInitials = {
       value: "Phone",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -904,7 +1041,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -998,7 +1135,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "24",
           isItalic: false,
@@ -1033,7 +1170,7 @@ export const fieldsInitials = {
       value: "Number",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -1116,7 +1253,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -1214,7 +1351,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "20",
           isItalic: false,
@@ -1249,7 +1386,7 @@ export const fieldsInitials = {
       value: "Date",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -1336,7 +1473,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -1430,7 +1567,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "24",
           isItalic: false,
@@ -1465,7 +1602,7 @@ export const fieldsInitials = {
       value: "Star Rating",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -1559,7 +1696,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "24",
           isItalic: false,
@@ -1594,7 +1731,7 @@ export const fieldsInitials = {
       value: "URL",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -1681,7 +1818,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -1720,7 +1857,7 @@ export const fieldsInitials = {
       value: "Address",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -1808,7 +1945,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -1841,7 +1978,7 @@ export const fieldsInitials = {
         value: "Street Address",
         hidden: false,
         styles: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "500",
           size: "20",
           isItalic: false,
@@ -1931,7 +2068,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -1964,7 +2101,7 @@ export const fieldsInitials = {
         value: "Street Address 2",
         hidden: false,
         styles: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "500",
           size: "20",
           isItalic: false,
@@ -2054,7 +2191,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -2087,7 +2224,7 @@ export const fieldsInitials = {
         value: "City",
         hidden: false,
         styles: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "500",
           size: "20",
           isItalic: false,
@@ -2177,7 +2314,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -2210,7 +2347,7 @@ export const fieldsInitials = {
         value: "State",
         hidden: false,
         styles: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "500",
           size: "20",
           isItalic: false,
@@ -2300,7 +2437,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -2333,7 +2470,7 @@ export const fieldsInitials = {
         value: "Zip Code",
         hidden: false,
         styles: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "500",
           size: "20",
           isItalic: false,
@@ -2423,7 +2560,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -2456,7 +2593,7 @@ export const fieldsInitials = {
         value: "Select Country",
         hidden: false,
         styles: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "500",
           size: "20",
           isItalic: false,
@@ -2538,7 +2675,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "20",
             isItalic: false,
@@ -2597,7 +2734,7 @@ export const fieldsInitials = {
       value: "Email",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -2684,7 +2821,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -2730,7 +2867,7 @@ export const fieldsInitials = {
       value: "Heading",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -2769,7 +2906,7 @@ export const fieldsInitials = {
       styles: {
         input: {},
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "600",
           size: "24",
           isItalic: false,
@@ -2804,7 +2941,7 @@ export const fieldsInitials = {
       value: "Scale Rating",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -2894,7 +3031,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -2985,7 +3122,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -3076,7 +3213,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -3165,7 +3302,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "44",
           isItalic: false,
@@ -3200,7 +3337,7 @@ export const fieldsInitials = {
       value: "Terms & Conditions",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -3283,7 +3420,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -3371,7 +3508,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "17",
           isItalic: false,
@@ -3406,7 +3543,7 @@ export const fieldsInitials = {
       value: "Price",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -3493,7 +3630,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -3544,10 +3681,10 @@ export const fieldsInitials = {
         },
         styles: {
           input: {
-            widthPx: 216,
+            widthPx: 50,
             widthPercent: 100,
             height: 44,
-            widthMeasurement: "Px",
+            widthMeasurement: "Percent",
             fill: {
               color: {
                 isStyleVisible: true,
@@ -3594,7 +3731,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "16",
             isItalic: false,
@@ -3622,88 +3759,6 @@ export const fieldsInitials = {
             },
           },
         },
-        icon: {
-          styles: {
-            input: {
-              widthPx: null,
-              widthPercent: 100,
-              height: 44,
-              widthMeasurement: "Percent",
-              fill: {
-                color: {
-                  isStyleVisible: true,
-                  solid: "#434E5A",
-                  gradient: null,
-                  imageUrl: null,
-                  lastModified: {
-                    style: "#434E5A",
-                    type: 0,
-                    value: {
-                      alpha: 1,
-                      blue: 255,
-                      green: 255,
-                      hue: 0,
-                      red: 255,
-                      saturation: 0,
-                      value: 100,
-                    },
-                  },
-                },
-              },
-              border: {
-                radius: 8,
-                size: 1,
-                color: {
-                  isStyleVisible: true,
-                  solid: "#33bfa1",
-                  gradient: null,
-                  imageUrl: null,
-                  lastModified: {
-                    style: "#33bfa1",
-                    type: 0,
-                    value: {
-                      alpha: 0.2,
-                      blue: 90,
-                      green: 78,
-                      hue: 211,
-                      red: 67,
-                      saturation: 26,
-                      value: 35,
-                    },
-                  },
-                },
-              },
-            },
-            inputValue: {
-              family: "Quicksand",
-              weight: "400",
-              size: "20",
-              isItalic: false,
-              isUnderline: false,
-              isStrikethrough: false,
-              alignment: "left",
-              color: {
-                isStyleVisible: true,
-                solid: "#434E5A",
-                gradient: null,
-                imageUrl: null,
-                lastModified: {
-                  style: "#434E5A",
-                  type: 0,
-                  value: {
-                    alpha: 0.6,
-                    blue: 90,
-                    green: 78,
-                    hue: 0,
-                    red: 67,
-                    saturation: 0,
-                    value: 97,
-                  },
-                },
-              },
-            },
-          },
-        },
       },
     },
   },
@@ -3712,7 +3767,7 @@ export const fieldsInitials = {
       value: "Map",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -3799,7 +3854,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -3830,8 +3885,8 @@ export const fieldsInitials = {
     },
     isRequired: { value: false, message: "" },
     center: { lat: 48.85837009999999, lng: 2.2944813 },
-    zoom: 4,
     markers: null,
+    zoom: 4,
     tooltip: { enabled: false, text: "" },
     validations: [],
   },
@@ -3840,7 +3895,7 @@ export const fieldsInitials = {
       value: "",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -3927,7 +3982,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -3956,7 +4011,7 @@ export const fieldsInitials = {
         },
       },
     },
-    html: '<p style="font-family: `Quicksand`;font-style: normal;font-weight: 400;font-size: 16px;line-height: 20px;display: flex;align-items: center;color: #434E5A;opacity: 0.6; margin: 0">This is Heading</p>  <p style="font-family: `Quicksand`;font-style: normal;font-weight: 400;font-size: 16px;line-height: 20px;display: flex;align-items: center;color: #434E5A;opacity: 0.6; margin: 0">This is a paragraph</p>',
+    html: '<p style="font-family: `Montserrat`;font-style: normal;font-weight: 400;font-size: 16px;line-height: 20px;display: flex;align-items: center;color: #434E5A;opacity: 0.6; margin: 0">This is Heading</p>  <p style="font-family: `Montserrat`;font-style: normal;font-weight: 400;font-size: 16px;line-height: 20px;display: flex;align-items: center;color: #434E5A;opacity: 0.6; margin: 0">This is a paragraph</p>',
     isRequired: { value: false, message: "" },
     tooltip: { enabled: false, text: "" },
     validations: [],
@@ -3966,7 +4021,7 @@ export const fieldsInitials = {
       value: "Description",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -4005,7 +4060,7 @@ export const fieldsInitials = {
       styles: {
         input: {},
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "500",
           size: "16",
           isItalic: false,
@@ -4040,7 +4095,7 @@ export const fieldsInitials = {
       value: "Time",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -4127,7 +4182,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -4211,7 +4266,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -4292,7 +4347,7 @@ export const fieldsInitials = {
             },
           },
           inputValue: {
-            family: "Quicksand",
+            family: "Montserrat",
             weight: "400",
             size: "20",
             isItalic: false,
@@ -4337,7 +4392,7 @@ export const fieldsInitials = {
       value: "Checkbox",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -4424,7 +4479,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -4453,11 +4508,11 @@ export const fieldsInitials = {
         },
       },
     },
+    options: null,
     isRequired: { value: false, message: "" },
     column_quantity: 2,
     tooltip: { enabled: false, text: "" },
     checkedOptions: "",
-    options: null,
     validations: {
       MIN_MAX_OPTIONS: {
         enabled: false,
@@ -4520,7 +4575,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "20",
           isItalic: false,
@@ -4560,7 +4615,7 @@ export const fieldsInitials = {
       value: "Radio",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -4608,10 +4663,10 @@ export const fieldsInitials = {
               gradient: null,
               imageUrl: null,
               lastModified: {
-                style: "#ffffffff",
+                style: "#fff",
                 type: 0,
                 value: {
-                  alpha: 0,
+                  alpha: 1,
                   blue: 255,
                   green: 255,
                   hue: 0,
@@ -4647,7 +4702,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -4735,7 +4790,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "20",
           isItalic: false,
@@ -4775,7 +4830,7 @@ export const fieldsInitials = {
       value: "Dropdown",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -4862,7 +4917,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -4949,7 +5004,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "20",
           isItalic: false,
@@ -4989,7 +5044,7 @@ export const fieldsInitials = {
       value: "Signature",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -5076,7 +5131,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -5162,7 +5217,229 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
+          weight: "400",
+          size: "24",
+          isItalic: false,
+          isUnderline: false,
+          isStrikethrough: false,
+          alignment: "left",
+          color: {
+            isStyleVisible: true,
+            solid: "#434E5A",
+            gradient: null,
+            imageUrl: null,
+            lastModified: {
+              style: "#434E5A",
+              type: 0,
+              value: {
+                alpha: 0.6,
+                blue: 90,
+                green: 78,
+                hue: 0,
+                red: 67,
+                saturation: 0,
+                value: 97,
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+  FILE: {
+    label: {
+      value: "File Upload",
+      hidden: false,
+      styles: {
+        family: "Montserrat",
+        weight: "500",
+        size: "20",
+        isItalic: false,
+        isUnderline: false,
+        isStrikethrough: false,
+        alignment: "top_left",
+        length: 0,
+        color: {
+          isStyleVisible: true,
+          solid: "#434e5a",
+          gradient: null,
+          imageUrl: null,
+          lastModified: {
+            style: "#434e5a",
+            type: 0,
+            value: {
+              alpha: 1,
+              blue: 90,
+              green: 78,
+              hue: 0,
+              red: 67,
+              saturation: 0,
+              value: 97,
+            },
+          },
+        },
+      },
+    },
+    input: {
+      data: { contentType: "placeholder", defaultText: "", placeholder: "" },
+      styles: {
+        input: {
+          widthPx: null,
+          widthPercent: 100,
+          height: 44,
+          widthMeasurement: "Percent",
+          fill: {
+            color: {
+              isStyleVisible: true,
+              solid: "#fff",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#fff",
+                type: 0,
+                value: {
+                  alpha: 1,
+                  blue: 255,
+                  green: 255,
+                  hue: 0,
+                  red: 255,
+                  saturation: 0,
+                  value: 100,
+                },
+              },
+            },
+          },
+          border: {
+            radius: 8,
+            size: 1,
+            color: {
+              isStyleVisible: true,
+              solid: "#434e5a33",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#434e5a33",
+                type: 0,
+                value: {
+                  alpha: 0.2,
+                  blue: 90,
+                  green: 78,
+                  hue: 211,
+                  red: 67,
+                  saturation: 26,
+                  value: 35,
+                },
+              },
+            },
+          },
+        },
+        inputValue: {
+          family: "Montserrat",
+          weight: "400",
+          size: "20",
+          isItalic: false,
+          isUnderline: false,
+          isStrikethrough: false,
+          alignment: "center",
+          color: {
+            isStyleVisible: true,
+            solid: "#434E5A",
+            gradient: null,
+            imageUrl: null,
+            lastModified: {
+              style: "#434E5A",
+              type: 0,
+              value: {
+                alpha: 0.6,
+                blue: 90,
+                green: 78,
+                hue: 0,
+                red: 67,
+                saturation: 0,
+                value: 97,
+              },
+            },
+          },
+        },
+      },
+    },
+    isRequired: { value: false, message: "" },
+    tooltip: { enabled: false, text: "" },
+    isMultiple: false,
+    extensions: "",
+    validations: {
+      MIN_MAX_SIZE: {
+        enabled: false,
+        sizeType: "",
+        min: 0,
+        max: 0,
+        validateBy: "SIZE",
+        message: "",
+      },
+      FILE_TYPE_FORMAT: {
+        enabled: false,
+        types: [],
+        formats: [],
+        fileTypeFormat: "",
+        validateBy: "TYPE_FORMAT",
+        message: "",
+      },
+    },
+    icon: {
+      styles: {
+        input: {
+          widthPx: null,
+          widthPercent: 100,
+          height: 44,
+          widthMeasurement: "Percent",
+          fill: {
+            color: {
+              isStyleVisible: true,
+              solid: "#434E5A",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#434E5A",
+                type: 0,
+                value: {
+                  alpha: 1,
+                  blue: 255,
+                  green: 255,
+                  hue: 0,
+                  red: 255,
+                  saturation: 0,
+                  value: 100,
+                },
+              },
+            },
+          },
+          border: {
+            radius: 8,
+            size: 1,
+            color: {
+              isStyleVisible: true,
+              solid: "#33bfa1",
+              gradient: null,
+              imageUrl: null,
+              lastModified: {
+                style: "#33bfa1",
+                type: 0,
+                value: {
+                  alpha: 0.2,
+                  blue: 90,
+                  green: 78,
+                  hue: 211,
+                  red: 67,
+                  saturation: 26,
+                  value: 35,
+                },
+              },
+            },
+          },
+        },
+        inputValue: {
+          family: "Montserrat",
           weight: "400",
           size: "24",
           isItalic: false,
@@ -5197,7 +5474,7 @@ export const fieldsInitials = {
       value: "Timezone",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -5284,7 +5561,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -5371,7 +5648,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "24",
           isItalic: false,
@@ -5406,7 +5683,7 @@ export const fieldsInitials = {
       value: "Promo Code",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -5493,7 +5770,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -5581,7 +5858,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -5663,7 +5940,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "20",
           isItalic: false,
@@ -5698,7 +5975,7 @@ export const fieldsInitials = {
       value: "Payment Method",
       hidden: false,
       styles: {
-        family: "Quicksand",
+        family: "Montserrat",
         weight: "500",
         size: "20",
         isItalic: false,
@@ -5786,7 +6063,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "16",
           isItalic: false,
@@ -5870,7 +6147,7 @@ export const fieldsInitials = {
           },
         },
         inputValue: {
-          family: "Quicksand",
+          family: "Montserrat",
           weight: "400",
           size: "20",
           isItalic: false,
@@ -5884,231 +6161,6 @@ export const fieldsInitials = {
             imageUrl: null,
             lastModified: {
               style: "#434E5A",
-              type: 0,
-              value: {
-                alpha: 0.6,
-                blue: 90,
-                green: 78,
-                hue: 0,
-                red: 67,
-                saturation: 0,
-                value: 97,
-              },
-            },
-          },
-        },
-      },
-    },
-  },
-  FILE: {
-    label: {
-      value: "File Upload",
-      hidden: false,
-      styles: {
-        family: "Quicksand",
-        weight: "500",
-        size: "20",
-        isItalic: false,
-        isUnderline: false,
-        isStrikethrough: false,
-        alignment: "top_left",
-        length: 0,
-        color: {
-          isStyleVisible: true,
-          solid: "#434e5a",
-          gradient: null,
-          imageUrl: null,
-          lastModified: {
-            style: "#434e5a",
-            type: 0,
-            value: {
-              alpha: 1,
-              blue: 90,
-              green: 78,
-              hue: 0,
-              red: 67,
-              saturation: 0,
-              value: 97,
-            },
-          },
-        },
-      },
-    },
-    input: {
-      data: {
-        contentType: "placeholder",
-        defaultText: "Default Text",
-        placeholder: "Placeholder",
-      },
-      styles: {
-        input: {
-          widthPx: null,
-          widthPercent: 100,
-          height: 44,
-          widthMeasurement: "Percent",
-          fill: {
-            color: {
-              isStyleVisible: true,
-              solid: "#fff",
-              gradient: null,
-              imageUrl: null,
-              lastModified: {
-                style: "#fff",
-                type: 0,
-                value: {
-                  alpha: 1,
-                  blue: 255,
-                  green: 255,
-                  hue: 0,
-                  red: 255,
-                  saturation: 0,
-                  value: 100,
-                },
-              },
-            },
-          },
-          border: {
-            radius: 8,
-            size: 1,
-            color: {
-              isStyleVisible: true,
-              solid: "#434e5a33",
-              gradient: null,
-              imageUrl: null,
-              lastModified: {
-                style: "#434e5a33",
-                type: 0,
-                value: {
-                  alpha: 0.2,
-                  blue: 90,
-                  green: 78,
-                  hue: 211,
-                  red: 67,
-                  saturation: 26,
-                  value: 35,
-                },
-              },
-            },
-          },
-        },
-        inputValue: {
-          family: "Quicksand",
-          weight: "400",
-          size: "20",
-          isItalic: false,
-          isUnderline: false,
-          isStrikethrough: false,
-          alignment: "center",
-          color: {
-            isStyleVisible: true,
-            solid: "#434E5A",
-            gradient: null,
-            imageUrl: null,
-            lastModified: {
-              style: "#434E5A",
-              type: 0,
-              value: {
-                alpha: 0.6,
-                blue: 90,
-                green: 78,
-                hue: 0,
-                red: 67,
-                saturation: 0,
-                value: 97,
-              },
-            },
-          },
-        },
-      },
-    },
-    isRequired: { message: "", value: false },
-    tooltip: { enabled: false, text: "" },
-    validations: {
-      MIN_MAX_SIZE: {
-        sizeType: "",
-        min: 0,
-        max: 0,
-        validateBy: "SIZE",
-        enabled: false,
-        message: "",
-      },
-      FILE_TYPE_FORMAT: {
-        types: [],
-        formats: [],
-        fileTypeFormat: "",
-        validateBy: "TYPE_FORMAT",
-        enabled: false,
-        message: "",
-      },
-    },
-    isMultiple: false,
-    icon: {
-      styles: {
-        input: {
-          widthPx: null,
-          widthPercent: 100,
-          height: 44,
-          widthMeasurement: "Percent",
-          fill: {
-            color: {
-              isStyleVisible: true,
-              solid: "#434E5A",
-              gradient: null,
-              imageUrl: null,
-              lastModified: {
-                style: "#434E5A",
-                type: 0,
-                value: {
-                  alpha: 1,
-                  blue: 255,
-                  green: 255,
-                  hue: 0,
-                  red: 255,
-                  saturation: 0,
-                  value: 100,
-                },
-              },
-            },
-          },
-          border: {
-            radius: 50,
-            size: 1,
-            color: {
-              isStyleVisible: true,
-              solid: "#33bfa1",
-              gradient: null,
-              imageUrl: null,
-              lastModified: {
-                style: "#33bfa1",
-                type: 0,
-                value: {
-                  alpha: 0.2,
-                  blue: 90,
-                  green: 78,
-                  hue: 211,
-                  red: 67,
-                  saturation: 26,
-                  value: 35,
-                },
-              },
-            },
-          },
-        },
-        inputValue: {
-          family: "Quicksand",
-          weight: "400",
-          size: "35",
-          isItalic: false,
-          isUnderline: false,
-          isStrikethrough: false,
-          alignment: "center",
-          color: {
-            isStyleVisible: true,
-            solid: "#1DCFA9",
-            gradient: null,
-            imageUrl: null,
-            lastModified: {
-              style: "#1DCFA9",
               type: 0,
               value: {
                 alpha: 0.6,
