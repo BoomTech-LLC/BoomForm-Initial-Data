@@ -267,7 +267,17 @@ export const fieldsInitials = {
         isRequired: { value: false, message: "" },
         dropdownOptions: ["Option 1", "Option 2", "Option 3"],
         showType: "Checkbox",
-        cells: {},
+        cells: {
+            "1-1": false,
+            "1-2": false,
+            "1-3": false,
+            "2-1": false,
+            "2-2": false,
+            "2-3": false,
+            "3-1": false,
+            "3-2": false,
+            "3-3": false,
+        },
         tooltip: { enabled: false, text: "" },
     },
     INPUT_MULTI_LINE_TEXT: {
