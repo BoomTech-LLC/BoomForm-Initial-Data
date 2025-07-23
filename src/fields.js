@@ -245,7 +245,7 @@ export const fieldsInitials = {
                 inputValue: {
                     family: "Montserrat",
                     weight: "400",
-                    size: "14",
+                    size: "16",
                     isItalic: false,
                     isUnderline: false,
                     isStrikethrough: false,
