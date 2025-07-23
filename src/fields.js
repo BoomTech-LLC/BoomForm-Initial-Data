@@ -276,11 +276,11 @@ export const fieldsInitials = {
                     fill: {
                         color: {
                             isStyleVisible: true,
-                            solid: "#434E5A",
+                            solid: "#fff",
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
-                                style: "#434E5A",
+                                style: "#fff",
                                 type: 0,
                                 value: { alpha: 1, blue: 255, green: 255, hue: 0, red: 255, saturation: 0, value: 100 },
                             },
@@ -295,7 +295,7 @@ export const fieldsInitials = {
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
-                                style: "#33bfa1",
+                                style: "#434e5a33",
                                 type: 0,
                                 value: {
                                     alpha: 0.2,
