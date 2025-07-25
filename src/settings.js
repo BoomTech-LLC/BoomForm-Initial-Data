@@ -1,4 +1,4 @@
-const settingsInitials = {
+export const settingsInitials = {
     native: { currency: "USD", priceFormat: "100$" },
     general: {
         allowMultipleSubmissions: true,
