@@ -100,252 +100,8 @@ export const fieldsInitials = {
             EMAIL: { value: false, enabled: false, message: "" },
             URL: { value: false, enabled: false, message: "" },
             REGEX: { value: " ", enabled: false, message: "Write your regex error message." },
-            MIN_MAX_STRING_LENGTH: { enabled: false, min: 0, max: 0, validateBy: "LENGTH", message: "" },
+            MIN_MAX_STRING_LENGTH: { enabled: false, quantity: { min: 0, max: 0 }, validateBy: "LENGTH", message: "" },
         },
-    },
-    INPUT_TABLE: {
-        label: {
-            value: "Type a question",
-            hidden: false,
-            styles: {
-                family: "Montserrat",
-                weight: "500",
-                size: "16",
-                isItalic: false,
-                isUnderline: false,
-                isStrikethrough: false,
-                alignment: "top_left",
-                length: 0,
-                color: {
-                    isStyleVisible: true,
-                    solid: "#434e5a",
-                    gradient: null,
-                    imageUrl: null,
-                    lastModified: {
-                        style: "#434e5a",
-                        type: 0,
-                        value: { alpha: 1, blue: 90, green: 78, hue: 0, red: 67, saturation: 0, value: 97 },
-                    },
-                },
-            },
-        },
-        input: {
-            data: { contentType: "placeholder", defaultText: "Placeholder", placeholder: "" },
-            styles: {
-                input: {
-                    widthPx: null,
-                    widthPercent: 100,
-                    height: 44,
-                    widthMeasurement: "Percent",
-                    fill: {
-                        color: {
-                            isStyleVisible: true,
-                            solid: "#fff",
-                            gradient: null,
-                            imageUrl: null,
-                            lastModified: {
-                                style: "#fff",
-                                type: 0,
-                                value: { alpha: 1, blue: 255, green: 255, hue: 0, red: 255, saturation: 0, value: 100 },
-                            },
-                        },
-                    },
-                    border: {
-                        radius: 8,
-                        size: 1,
-                        color: {
-                            isStyleVisible: true,
-                            solid: "#434e5a33",
-                            gradient: null,
-                            imageUrl: null,
-                            lastModified: {
-                                style: "#434e5a33",
-                                type: 0,
-                                value: {
-                                    alpha: 0.2,
-                                    blue: 90,
-                                    green: 78,
-                                    hue: 211,
-                                    red: 67,
-                                    saturation: 26,
-                                    value: 35,
-                                },
-                            },
-                        },
-                    },
-                },
-                inputValue: {
-                    family: "Montserrat",
-                    weight: "400",
-                    size: "16",
-                    isItalic: false,
-                    isUnderline: false,
-                    isStrikethrough: false,
-                    alignment: "left",
-                    color: {
-                        isStyleVisible: true,
-                        solid: "#434E5A",
-                        gradient: null,
-                        imageUrl: null,
-                        lastModified: {
-                            style: "#434E5A",
-                            type: 0,
-                            value: { alpha: 0.6, blue: 90, green: 78, hue: 0, red: 67, saturation: 0, value: 97 },
-                        },
-                    },
-                },
-            },
-        },
-        rows: [],
-        columns: [],
-        icon: {
-            styles: {
-                input: {
-                    widthPx: null,
-                    widthPercent: 100,
-                    height: 44,
-                    widthMeasurement: "Percent",
-                    fill: {
-                        color: {
-                            isStyleVisible: true,
-                            solid: "#fff",
-                            gradient: null,
-                            imageUrl: null,
-                            lastModified: {
-                                style: "#45505c",
-                                type: 0,
-                                value: { alpha: 1, blue: 255, green: 255, hue: 0, red: 255, saturation: 0, value: 100 },
-                            },
-                        },
-                    },
-                    border: {
-                        radius: 8,
-                        size: 1,
-                        color: {
-                            isStyleVisible: true,
-                            solid: "#35c0a2",
-                            gradient: null,
-                            imageUrl: null,
-                            lastModified: {
-                                style: "#35c0a2",
-                                type: 0,
-                                value: {
-                                    alpha: 0.2,
-                                    blue: 90,
-                                    green: 78,
-                                    hue: 211,
-                                    red: 67,
-                                    saturation: 26,
-                                    value: 35,
-                                },
-                            },
-                        },
-                    },
-                },
-                inputValue: {
-                    family: "Montserrat",
-                    weight: "400",
-                    size: "16",
-                    isItalic: false,
-                    isUnderline: false,
-                    isStrikethrough: false,
-                    alignment: "left",
-                    color: {
-                        isStyleVisible: true,
-                        solid: "#434E5A",
-                        gradient: null,
-                        imageUrl: null,
-                        lastModified: {
-                            style: "#434E5A",
-                            type: 0,
-                            value: { alpha: 0.6, blue: 90, green: 78, hue: 0, red: 67, saturation: 0, value: 97 },
-                        },
-                    },
-                },
-            },
-        },
-        isRequired: { value: false, message: "" },
-        cell: {
-            data: { contentType: "placeholder", defaultText: "Placeholder", placeholder: "" },
-            styles: {
-                input: {
-                    widthPx: null,
-                    widthPercent: 100,
-                    height: 44,
-                    widthMeasurement: "Percent",
-                    fill: {
-                        color: {
-                            isStyleVisible: true,
-                            solid: "#fff",
-                            gradient: null,
-                            imageUrl: null,
-                            lastModified: {
-                                style: "#fff",
-                                type: 0,
-                                value: { alpha: 1, blue: 255, green: 255, hue: 0, red: 255, saturation: 0, value: 100 },
-                            },
-                        },
-                    },
-                    border: {
-                        radius: 8,
-                        size: 1,
-                        color: {
-                            isStyleVisible: true,
-                            solid: "#434e5a33",
-                            gradient: null,
-                            imageUrl: null,
-                            lastModified: {
-                                style: "#434e5a33",
-                                type: 0,
-                                value: {
-                                    alpha: 0.2,
-                                    blue: 90,
-                                    green: 78,
-                                    hue: 211,
-                                    red: 67,
-                                    saturation: 26,
-                                    value: 35,
-                                },
-                            },
-                        },
-                    },
-                },
-                inputValue: {
-                    family: "Montserrat",
-                    weight: "400",
-                    size: "16",
-                    isItalic: false,
-                    isUnderline: false,
-                    isStrikethrough: false,
-                    alignment: "left",
-                    color: {
-                        isStyleVisible: true,
-                        solid: "#434E5A",
-                        gradient: null,
-                        imageUrl: null,
-                        lastModified: {
-                            style: "#434E5A",
-                            type: 0,
-                            value: { alpha: 0.6, blue: 90, green: 78, hue: 0, red: 67, saturation: 0, value: 97 },
-                        },
-                    },
-                },
-            },
-        },
-        dropdownOptions: ["Option 1", "Option 2", "Option 3"],
-        showType: "Checkbox",
-        cells: {
-            "1-1": false,
-            "1-2": false,
-            "1-3": false,
-            "2-1": false,
-            "2-2": false,
-            "2-3": false,
-            "3-1": false,
-            "3-2": false,
-            "3-3": false,
-        },
-        tooltip: { enabled: false, text: "" },
     },
     INPUT_MULTI_LINE_TEXT: {
         label: {
@@ -449,7 +205,7 @@ export const fieldsInitials = {
             URL: { value: false, enabled: false, message: "" },
             REGEX: { value: " ", enabled: false, message: "Write your regex error message." },
             EMAIL: { value: false, enabled: false, message: "" },
-            MIN_MAX_STRING_LENGTH: { enabled: false, min: 0, max: 0, validateBy: "LENGTH", message: "" },
+            MIN_MAX_STRING_LENGTH: { enabled: false, quantity: { min: 0, max: 0 }, validateBy: "LENGTH", message: "" },
         },
     },
     INPUT_NAME: {
@@ -817,7 +573,7 @@ export const fieldsInitials = {
         validations: {
             LETTERS: { value: false, enabled: false, message: "" },
             REGEX: { value: " ", enabled: false, message: "Write your regex error message." },
-            MIN_MAX_STRING_LENGTH: { min: 0, max: 0, validateBy: "WORD", enabled: false, message: "" },
+            MIN_MAX_STRING_LENGTH: { quantity: { min: 0, max: 0 }, validateBy: "WORD", enabled: false, message: "" },
             DIGITS: { value: false, enabled: false, message: "" },
         },
         icon: {
@@ -986,7 +742,9 @@ export const fieldsInitials = {
         isPrefix: true,
         country: "AM",
         search: "",
-        validations: { MIN_MAX_STRING_LENGTH: { enabled: false, min: 0, max: 0, validateBy: "LENGTH", message: "" } },
+        validations: {
+            MIN_MAX_STRING_LENGTH: { enabled: false, quantity: { min: 0, max: 0 }, validateBy: "LENGTH", message: "" },
+        },
         icon: {
             styles: {
                 input: {
@@ -1153,7 +911,9 @@ export const fieldsInitials = {
         isRequired: { value: false, message: "" },
         arrows: false,
         tooltip: { enabled: false, text: "" },
-        validations: { MIN_MAX_QUANTITY: { enabled: false, min: 0, max: 0, validateBy: "LENGTH", message: "" } },
+        validations: {
+            MIN_MAX_QUANTITY: { enabled: false, quantity: { min: 0, max: 0 }, validateBy: "LENGTH", message: "" },
+        },
         value: { enabled: false, min: 0, max: 0 },
         icon: {
             styles: {
@@ -1321,8 +1081,7 @@ export const fieldsInitials = {
         isActive: false,
         validations: {
             MIN_MAX_DATE: {
-                min: { option: "past", value: "" },
-                max: { option: "future", value: "" },
+                quantity: { min: { option: "past", value: "" }, max: { option: "future", value: "" } },
                 enabled: false,
                 message: "",
             },
@@ -3070,7 +2829,9 @@ export const fieldsInitials = {
             },
         },
         isRequired: { value: false, message: "" },
-        validations: { MIN_MAX_QUANTITY: { enabled: false, min: 0, max: 0, validateBy: "LENGTH", message: "" } },
+        validations: {
+            MIN_MAX_QUANTITY: { enabled: false, quantity: { min: 0, max: 0 }, validateBy: "LENGTH", message: "" },
+        },
         tooltip: { enabled: false, text: "" },
         value: { enabled: false, min: 0, max: 0 },
         currency: {
@@ -3646,8 +3407,7 @@ export const fieldsInitials = {
         tooltip: { enabled: false, text: "" },
         validations: {
             MIN_MAX_DATE: {
-                min: { option: "", value: "" },
-                max: { option: "", value: "" },
+                quantity: { min: { option: "", value: "" }, max: { option: "", value: "" } },
                 enabled: false,
                 message: "",
             },
@@ -3751,7 +3511,9 @@ export const fieldsInitials = {
         column_quantity: 2,
         tooltip: { enabled: false, text: "" },
         checkedOptions: "",
-        validations: { MIN_MAX_OPTIONS: { enabled: false, min: 0, max: 0, validateBy: "LENGTH", message: "" } },
+        validations: {
+            MIN_MAX_OPTIONS: { enabled: false, quantity: { min: 0, max: 0 }, validateBy: "LENGTH", message: "" },
+        },
         icon: {
             styles: {
                 input: {
@@ -4427,7 +4189,13 @@ export const fieldsInitials = {
         isMultiple: false,
         extensions: "",
         validations: {
-            MIN_MAX_SIZE: { enabled: false, sizeType: "", min: 0, max: 0, validateBy: "SIZE", message: "" },
+            MIN_MAX_SIZE: {
+                enabled: false,
+                sizeType: "",
+                quantity: { min: 0, max: 0 },
+                validateBy: "SIZE",
+                message: "",
+            },
             FILE_TYPE_FORMAT: {
                 enabled: false,
                 types: [],
