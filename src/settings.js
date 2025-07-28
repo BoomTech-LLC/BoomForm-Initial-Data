@@ -242,7 +242,7 @@ export const settingsInitials = {
     },
     confirmation: {
         afterSubmit: {
-            isActive: false,
+            isActive: true,
             enterURL: "https://www.example.com",
             openURL: true,
             message:
