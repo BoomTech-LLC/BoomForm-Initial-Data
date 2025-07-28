@@ -36,7 +36,7 @@ export const settingsInitials = {
         emailNotification: {
             isActive: true,
             title: "You have a new entry!",
-            to: '',
+            to: null,
             json: {
                 root: {
                     type: "EmailLayout",
