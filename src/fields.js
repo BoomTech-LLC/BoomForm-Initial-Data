@@ -1081,7 +1081,8 @@ export const fieldsInitials = {
         isActive: false,
         validations: {
             MIN_MAX_DATE: {
-                quantity: { min: { option: "past", value: "" }, max: { option: "future", value: "" } },
+                min: { option: "past", value: "" },
+                max: { option: "future", value: "" },
                 enabled: false,
                 message: "",
             },
@@ -3407,7 +3408,8 @@ export const fieldsInitials = {
         tooltip: { enabled: false, text: "" },
         validations: {
             MIN_MAX_DATE: {
-                quantity: { min: { option: "", value: "" }, max: { option: "", value: "" } },
+                min: { option: "", value: "" },
+                max: { option: "", value: "" },
                 enabled: false,
                 message: "",
             },
