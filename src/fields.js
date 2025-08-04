@@ -265,6 +265,7 @@ export const fieldsInitials = {
             },
         },
         isRequired: { value: false, message: "" },
+        dropdownPlaceholder: "Select",
         cell: {
             data: { contentType: "placeholder", defaultText: "Placeholder", placeholder: "" },
             styles: {
