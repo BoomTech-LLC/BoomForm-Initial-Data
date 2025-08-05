@@ -140,11 +140,11 @@ export const fieldsInitials = {
                     fill: {
                         color: {
                             isStyleVisible: true,
-                            solid: "#33bfa1",
+                            solid: "#fff",
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
-                                style: "#33bfa1",
+                                style: "#fff",
                                 type: 0,
                                 value: { alpha: 1, blue: 255, green: 255, hue: 0, red: 255, saturation: 0, value: 100 },
                             },
@@ -208,7 +208,7 @@ export const fieldsInitials = {
                     fill: {
                         color: {
                             isStyleVisible: true,
-                            solid: "#fff",
+                            solid: "#35c0a2",
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
@@ -223,11 +223,11 @@ export const fieldsInitials = {
                         size: 1,
                         color: {
                             isStyleVisible: true,
-                            solid: "#434e5a33",
+                            solid: "#45505c",
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
-                                style: "#434e5a33",
+                                style: "#45505c",
                                 type: 0,
                                 value: {
                                     alpha: 0.2,
