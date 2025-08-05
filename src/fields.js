@@ -333,7 +333,7 @@ export const fieldsInitials = {
                 },
             },
         },
-        dropdownOptions: ["Option 1", "Option 2", "Option 3"],
+        dropdownOptions: [],
         showType: "Checkbox",
         cells: {
             "1-1": false,
