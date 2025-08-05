@@ -140,11 +140,11 @@ export const fieldsInitials = {
                     fill: {
                         color: {
                             isStyleVisible: true,
-                            solid: "#fff",
+                            solid: "#33bfa1",
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
-                                style: "#fff",
+                                style: "#33bfa1",
                                 type: 0,
                                 value: { alpha: 1, blue: 255, green: 255, hue: 0, red: 255, saturation: 0, value: 100 },
                             },
