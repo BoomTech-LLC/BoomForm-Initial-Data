@@ -196,8 +196,8 @@ export const fieldsInitials = {
                 },
             },
         },
-        rows: [],
-        columns: [],
+        rows: ["Row 1", "Row 2", "Row 3"],
+        columns: ["Col 1", "Col 2", "Col 3"],
         icon: {
             styles: {
                 input: {
