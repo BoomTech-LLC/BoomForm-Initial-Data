@@ -265,7 +265,6 @@ export const fieldsInitials = {
             },
         },
         isRequired: { value: false, message: "" },
-        dropdownPlaceholder: "Select",
         cell: {
             data: { contentType: "placeholder", defaultText: "Placeholder", placeholder: "" },
             styles: {
@@ -333,7 +332,7 @@ export const fieldsInitials = {
                 },
             },
         },
-        dropdownOptions: [],
+        dropdownOptions: ["Option 1", "Option 2", "Option 3"],
         showType: "Checkbox",
         cells: {
             "1-1": false,
@@ -347,6 +346,7 @@ export const fieldsInitials = {
             "3-3": false,
         },
         tooltip: { enabled: false, text: "" },
+        validations: { IS_REQUIRED: { value: false, enabled: false, text: "" } },
     },
     INPUT_MULTI_LINE_TEXT: {
         label: {
