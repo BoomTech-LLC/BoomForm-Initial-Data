@@ -12,9 +12,9 @@ export const settingsInitials = {
         formAvailability: {
             isActive: true,
             disableBy: {
-                date: { isActive: true, startDate: "", endDate: "", warning: "Submission time has been expired." },
+                date: { isActive: false, startDate: "", endDate: "", warning: "Submission time has been expired." },
                 submission: {
-                    isActive: true,
+                    isActive: false,
                     submissionsNumber: 0,
                     limitPeriod: "Month",
                     limitMonths: 12,
@@ -22,7 +22,7 @@ export const settingsInitials = {
                     startDate: "",
                 },
                 perIP: {
-                    isActive: true,
+                    isActive: false,
                     warning: "Submissions limit has been reached.",
                     interval: "Month",
                     submissionLimit: 0,
