@@ -196,8 +196,8 @@ export const fieldsInitials = {
                 },
             },
         },
-        rows: ["Row 1", "Row 2", "Row 3"],
-        columns: ["Col 1", "Col 2", "Col 3"],
+        rows: [],
+        columns: [],
         icon: {
             styles: {
                 input: {
@@ -212,7 +212,7 @@ export const fieldsInitials = {
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
-                                style: "#45505c",
+                                style: "#fff",
                                 type: 0,
                                 value: { alpha: 1, blue: 255, green: 255, hue: 0, red: 255, saturation: 0, value: 100 },
                             },
@@ -223,11 +223,11 @@ export const fieldsInitials = {
                         size: 1,
                         color: {
                             isStyleVisible: true,
-                            solid: "#35c0a2",
+                            solid: "#434e5a33",
                             gradient: null,
                             imageUrl: null,
                             lastModified: {
-                                style: "#35c0a2",
+                                style: "#434e5a33",
                                 type: 0,
                                 value: {
                                     alpha: 0.2,
@@ -335,15 +335,9 @@ export const fieldsInitials = {
         dropdownOptions: ["Option 1", "Option 2", "Option 3"],
         showType: "Checkbox",
         cells: {
-            "1-1": false,
-            "1-2": false,
-            "1-3": false,
-            "2-1": false,
-            "2-2": false,
-            "2-3": false,
-            "3-1": false,
-            "3-2": false,
-            "3-3": false,
+            1: { 1: { key: 1, value: false }, 2: { key: 2, value: false }, 3: { key: 3, value: false } },
+            2: { 1: { key: 4, value: false }, 2: { key: 5, value: false }, 3: { key: 6, value: false } },
+            3: { 1: { key: 7, value: false }, 2: { key: 8, value: false }, 3: { key: 9, value: false } },
         },
         tooltip: { enabled: false, text: "" },
         validations: { IS_REQUIRED: { value: false, enabled: false, text: "" } },
