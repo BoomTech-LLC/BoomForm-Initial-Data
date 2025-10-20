@@ -335,9 +335,9 @@ export const fieldsInitials = {
         dropdownOptions: ["Option 1", "Option 2", "Option 3"],
         showType: "Checkbox",
         cells: {
-            1: { 1: { key: 1, value: false }, 2: { key: 2, value: false }, 3: { key: 3, value: false } },
-            2: { 1: { key: 4, value: false }, 2: { key: 5, value: false }, 3: { key: 6, value: false } },
-            3: { 1: { key: 7, value: false }, 2: { key: 8, value: false }, 3: { key: 9, value: false } },
+            1: { 1: false, 2: false, 3: false },
+            2: { 1: false, 2: false, 3: false },
+            3: { 1: false, 2: false, 3: false },
         },
         tooltip: { enabled: false, text: "" },
         validations: { IS_REQUIRED: { value: false, enabled: false, text: "" } },
