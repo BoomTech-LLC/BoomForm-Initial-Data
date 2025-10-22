@@ -340,7 +340,11 @@ export const fieldsInitials = {
             3: { 1: false, 2: false, 3: false },
         },
         tooltip: { enabled: false, text: "" },
-        validations: { IS_REQUIRED: { value: false, enabled: false, text: "" } },
+        validations: {
+            REQUIRED_TABLE_CELLS: { enabled: false, mode: "ALL_CELLS", message: "" },
+            TABLE_EACH_ROW_REQUIRED: { enabled: false, mode: "EVERY_ROW", message: "Each row needs a value." },
+            TABLE_EACH_COLUMN_REQUIRED: { enabled: false, mode: "EVERY_COLUMN", message: "Each column needs a value." },
+        },
     },
     INPUT_MULTI_LINE_TEXT: {
         label: {
