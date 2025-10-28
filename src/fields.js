@@ -333,18 +333,15 @@ export const fieldsInitials = {
             },
         },
         dropdownOptions: ["Option 1", "Option 2", "Option 3"],
-        showType: "Checkbox",
+        showType: "Text",
+        columnTypes: { 1: "Text", 2: "Text", 3: "Text" },
         cells: {
             1: { 1: false, 2: false, 3: false },
             2: { 1: false, 2: false, 3: false },
             3: { 1: false, 2: false, 3: false },
         },
         tooltip: { enabled: false, text: "" },
-        validations: {
-            REQUIRED_TABLE_CELLS: { enabled: false, mode: "ALL_CELLS", message: "" },
-            TABLE_EACH_ROW_REQUIRED: { enabled: false, mode: "EVERY_ROW", message: "Each row needs a value." },
-            TABLE_EACH_COLUMN_REQUIRED: { enabled: false, mode: "EVERY_COLUMN", message: "Each column needs a value." },
-        },
+        validations: { IS_REQUIRED: { value: false, message: "" } },
     },
     INPUT_MULTI_LINE_TEXT: {
         label: {
